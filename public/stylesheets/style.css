@@ -1,18 +1,21 @@
 .content {
-  /* background-image: url('../images/space.jpg');
-  background-size: contain; */
+
 }
 
 .tile {
-  background-color: rgba(255, 255, 255, 0.867);
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction : column;
   justify-content: space-between;
 }
 
 body {
-  background-color: rgba(0,0,0, 0.87);
+  /* background-color: rgba(0, 0, 0, 0.87); */
   height:100vh;
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .header {
