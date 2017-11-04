@@ -46,13 +46,3 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-
-/*
-mobile wording:
-
-To use the mobile app, create a new user [**Setup > Users > New **] and create a user with your email address (change the username to a fake email address to avoid username conflicts!).  Then check your email, follow the instructions and login to the Salesforce mobile app with that username/password, from **test.salesforce.com**
-
-
-*/
-
-
