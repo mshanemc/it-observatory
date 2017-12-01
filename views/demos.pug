@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .slds-p-vertical_medium.slds-align_absolute-center.header
+    p.slds-text-heading_large Platform Demos
+
+
+  .slds-grid.slds-wrap.slds-grid_align-space.slds-p-around_large.content.slds-grid_vertical-stretch
+    each w in workshops
+      .slds-size_1-of-4.slds-box.slds-p-horizonal_medium.slds-m-bottom_xx-large.slds-m-horizontal_medium.tile
+        div
+          p.slds-text-heading_medium.slds-p-vertical_medium.slds-text-align_center #{w.name}
+          p.slds-p-vertical_medium #{w.description}
+        .slds-grid.slds-grid_align-space
+          a.slds-button.slds-button_brand(href=w.launchURL target='_blank') Create Org
+          a.slds-button.slds-button_neutral(href=w.docsURL target='_blank') Open Guide
+

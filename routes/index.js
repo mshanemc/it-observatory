@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var launcher = process.env.LAUNCHER || 'https://hosted-scratch-qa.herokuapp.com/launch?template=';
+var launcher = process.env.LAUNCHER || 'https://hosted-scratch.herokuapp.com/launch?template=';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -43,6 +43,24 @@ router.get('/', function(req, res, next) {
     }
   ];
   res.render('index', { workshops: workshops});
+});
+
+router.get('/demos', function (req, res, next) {
+  var workshops = [
+    {
+      name: 'Ducati: Extend CRM',
+      description: 'Custom Objects help manage Bikes, Dealers, and Live Events.  A Lightning App built with Components helps organize Live Events and keep Sales Managers in the loop.  (From the DF17 Campground)',
+      launchURL: launcher + 'https://github.com/mshanemc/cg1',
+      docsURL: 'https://salesforce.quip.com/bY08A4XodAFN'
+    },
+    {
+      name: 'Ducati: Integrate Data from Anywhere',
+      description: 'Salesorce Connect brings Invoices from an ERP system into Salesforce, including the mobile app, with no code.  (From the DF17 Campground)',
+      launchURL: launcher + 'https://github.com/mshanemc/cg4Integrate',
+      docsURL: 'https://salesforce.quip.com/sh0EAdWZDsiW'
+    }
+  ];
+  res.render('demos', { workshops: workshops });
 });
 
 module.exports = router;
