@@ -64,6 +64,12 @@ router.get('/demos', function (req, res, next) {
       description: 'Our broad vision--Connected products, customer-facing mobile apps backed by Heroku + Heroku Pipelines, and Lightning seamlessly share information with Heroku Connect and Platform Events.  Some setup required, but totally worth it! (from the DF17 Campground)',
       launchURL: launcher + 'https://github.com/mshanemc/platform-campground-customer-exp',
       docsURL: 'https://salesforce.quip.com/pySzAu1av18a'
+    },
+    {
+      name: 'Mobile App Dev, no code!',
+      description: 'for a webinar 1/23/2018 about Salesforce Mobile.  Explores standard features, AppExchange, custom objects/actions, Connect, and more',
+      launchURL: launcher + 'https://github.com/mshanemc/mobileWebinar',
+      docsURL: 'https://salesforce.quip.com/a0buAtozS9PB'
     }
   ];
   res.render('demos', { workshops: workshops });
