@@ -14,13 +14,13 @@ router.get('/', function(req, res, next) {
     {
       name : 'Make Salesforce Your Back Office Agility Layer',
       description : 'Need to bring together customer data from SAP, Oracle, SharePoint, and others to create connected experiences? Try this workshop for a 30 minute dive into unlocking the most valuable data for your customers and building an Agility Layer in Salesforce with simple point and click tools.',
-      launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops',
+      launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops&email=required',
       docsURL : 'https://salesforce.quip.com/quIaA12BQylG'
     },
     {
       name : 'Build Apps that Span Heroku and Salesforce with Heroku Connect',
       description : 'We know that all of your apps won\'t run on Force infrastructure because of architectural or talent reasons. Take this 30-minute workshop to see how Heroku lets professional developers build apps without creating new data silos or integration headaches.',
-      launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops',
+      launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops&email=required',
       docsURL : 'https://salesforce.quip.com/eXsHAgQhXaa6'
     },
     {
@@ -56,19 +56,19 @@ router.get('/demos', function (req, res, next) {
     {
       name: 'Ducati: Integrate Data from Anywhere',
       description: 'Salesorce Connect brings Invoices from an ERP system into Salesforce, including the mobile app, with no code.  (from the DF17 Campground)',
-      launchURL: launcher + 'https://github.com/mshanemc/cg4Integrate',
+      launchURL: launcher + 'https://github.com/mshanemc/cg4Integrate&email=required',
       docsURL: 'https://salesforce.quip.com/sh0EAdWZDsiW'
     },
     {
       name: 'Ducati: Transform Customer Experiences',
       description: 'Our broad vision--Connected products, customer-facing mobile apps backed by Heroku + Heroku Pipelines, and Lightning seamlessly share information with Heroku Connect and Platform Events.  Some setup required, but totally worth it! (from the DF17 Campground)',
-      launchURL: launcher + 'https://github.com/mshanemc/platform-campground-customer-exp',
+      launchURL: launcher + 'https://github.com/mshanemc/platform-campground-customer-exp&email=required',
       docsURL: 'https://salesforce.quip.com/pySzAu1av18a'
     },
     {
       name: 'Mobile App Dev, no code!',
       description: 'for a webinar 1/23/2018 about Salesforce Mobile.  Explores standard features, AppExchange, custom objects/actions, Connect, and more',
-      launchURL: launcher + 'https://github.com/mshanemc/mobileWebinar',
+      launchURL: launcher + 'https://github.com/mshanemc/mobileWebinar&email=required',
       docsURL: 'https://salesforce.quip.com/a0buAtozS9PB'
     }
   ];
