@@ -40,6 +40,12 @@ router.get('/', function(req, res, next) {
       description : 'Now you can build your community once, with a different look for each audience! In this 30 minute interactive workshop you\'ll learn how to integrate CMS content with just a few clicks, and create personaized page experiences with audience targeting based on profile or location and brand. Make your community more engaging by integrating and personalizing content.',
       launchURL: launcher + 'https://github.com/mshanemc/df17-community-content-workshop',
       docsURL : 'https://salesforce.quip.com/oWM6AMv6FuWn'
+    },
+    {
+      name: 'Add Lightning Experience features to take your custom apps to the next level',
+      description: 'You\'ve built your first app with no code.  This 30-minute workshop will explore features from Lightning Experience that will make your app engaging and awesome.',
+      launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
+      docsURL: 'https://salesforce.quip.com/rRolAFGPWqFp'
     }
   ];
   res.render('index', { workshops: workshops});
