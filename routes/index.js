@@ -18,13 +18,13 @@ router.get('/', function(req, res, next) {
       docsURL : 'https://salesforce.quip.com/eXsHAgQhXaa6'
     },
     {
-      name: 'Take Custom Apps to the Next Level with Lightning Experience Features',
+      name: 'Take Custom Apps to the Next Level with Lightning Experience Features (BETA)',
       description: 'You\'ve built your first app with no code.This 30-minute workshop will explore features available only in Lightning Experience that will make your app engaging and awesome',
       launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
       docsURL: 'https://salesforce.quip.com/rRolAFGPWqFp'
     },
     {
-      name: 'Write Code that Empowers Non-Coders',
+      name: 'Write Code that Empowers Non-Coders (BETA)',
       description: 'You\'re a developer and someone asks you to add a feature to Salesforce to “do something it doesn\'t do that needs code”.  This 30-minute workshop explores your options for working smarter, not harder when adding UI and automation in Salesforce.',
       launchURL: launcher + 'https://github.com/mshanemc/codeForClicks',
       docsURL: 'https://salesforce.quip.com/6qEJAfbdid2T'
