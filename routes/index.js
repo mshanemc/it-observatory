@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var launcher = process.env.LAUNCHER || 'https://hosted-scratch.herokuapp.com/launch?template=';
+var launcher = process.env.LAUNCHER || 'https://hosted-scratch-dev.herokuapp.com/launch?template=';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
