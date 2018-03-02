@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var launcher = process.env.LAUNCHER || 'https://hosted-scratch-dev.herokuapp.com/launch?template=';
+var launcher = process.env.LAUNCHER || 'https://hosted-scratch.herokuapp.com/launch?template=';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
     },
     {
       name: 'Take Custom Apps to the Next Level with Lightning Experience Features (BETA)',
-      description: 'You\'ve built your first app with no code. This 30-minute workshop will explore features available only in Lightning Experience that will make your app engaging and awesome',
+      description: 'You\'ve built your first app with no code.This 30-minute workshop will explore features available only in Lightning Experience that will make your app engaging and awesome',
       launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
       docsURL: 'https://salesforce.quip.com/rRolAFGPWqFp'
     },
