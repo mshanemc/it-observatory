@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  .slds-p-vertical_medium.slds-align_absolute-center.header
+    p.slds-text-heading_large Run your own workshop!
+
+  .header.slds-grid.slds-wrap.slds-grid_align-space.slds-p-around_large.content.slds-grid_vertical-stretch
+    .slds-size_1-of-3.slds-text-heading_medium
+      img.slds-align_absolute-center(src='http://via.placeholder.com/350x350' alt='Community Leader Badge')
+      p.slds-align_absolute-center.slds-m-vertical_medium At your company
+    .slds-size_1-of-3.slds-text-heading_medium
+      img.slds-align_absolute-center(src='http://via.placeholder.com/350x350' alt='Community Leader Badge')
+      p.slds-align_absolute-center.slds-m-vertical_medium At your user group
+    .slds-size_1-of-3.slds-text-heading_medium
+      img.slds-align_absolute-center(src='http://via.placeholder.com/350x350' alt='Community Leader Badge')
+      p.slds-align_absolute-center.slds-m-vertical_medium At a Salesforce Saturday
+
+  .slds-p-around_large.header.slds-text-heading_small.slds-text-align_center
+
+    p.slds-m-vertical_medium We provide the content guide and the scratch org deployer so you can get right to learning.
+    p.slds-m-vertical_medium And if you let us know about your event in advance, we can send your our swag box.
+    p.slds-m-vertical_medium Post about it on your Twitter or Instragram, and Salesforce will share it out.
+    p.slds-m-vertical_medium Leading a workshop earns you our exclusive Community Leader badge.
+    .slds-avatar.slds-avatar_circle.slds-avatar_large
+      img(src='http://via.placeholder.com/350x350' alt='Community Leader Badge')
+
+  .slds-grid.slds-grid_align-space
+    .slds-form.slds-form-stacked.slds-size_3-of-12
+      .slds-form-element.slds-m-vertical_medium
+        label.slds-form-element__label.header(for='email') Send this to me
+        .slds-form-element__control.slds-input-has-fixed-addon
+          input.slds-input(type='email' id='email' placeholder='Email Address' aria-labelledby='fixed-text-label fixed-text-addon-pre fixed-text-addon-post')
+          span.slds-form-element__addon(id='fixed-text-addon-post')
+            button.slds-button.slds-button_brand Submit
