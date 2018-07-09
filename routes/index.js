@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
       docsURL: 'https://salesforce.quip.com/6qEJAfbdid2T'
     },
     {
-      name: 'Building Apps - A Crash Course',
+      name: 'Building Apps With Clicks - A Crash Course',
       description : 'Build a working app in one sitting? This is your chance to explore the possibilities of our platform to let anyone in your organization build apps with skills they have.',
       launchURL: launcher + 'https://github.com/mshanemc/df17AppBuilding',
       docsURL : 'https://salesforce.quip.com/F7uJAgoEL3ce'
