@@ -13,14 +13,22 @@ body {
   background-image: url('../images/Background_Art.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.main {
+  flex-grow: 1;
+}
 .header {
   color: #032e61;
   margin:auto;
   display:flex;
   align-items: center;
   flex-direction: column;
+  flex-grow: 0;
 }
 
 .footer {
@@ -28,6 +36,7 @@ body {
   display:flex;
   justify-content: center;
   flex-direction: row;
+  flex-grow: 0;
 }
 
 .footer .img {
@@ -41,7 +50,7 @@ body {
   flex-grow: 0;
   align-self: center;
   margin-left: -75px;
-  min-width: 45vw;
+  min-width: 60vw;
 }
 
 .banner .bannerbody {
