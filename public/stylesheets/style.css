@@ -1,8 +1,9 @@
 .tile {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction : column;
   justify-content: space-between;
+  border: none;
 }
 
 body {
@@ -15,5 +16,43 @@ body {
 }
 
 .header {
-  color: white;
+  color: #032e61;
+  margin:auto;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.footer {
+  margin:auto;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer .img {
+  width: 20%;
+}
+
+.banner {
+  background-color: #215CA0;
+  color: white;
+  border: none;
+  flex-grow: 0;
+  align-self: center;
+  margin-left: -75px;
+  min-width: 45vw;
+}
+
+.banner .bannerbody {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
