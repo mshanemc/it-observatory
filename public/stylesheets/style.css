@@ -13,7 +13,7 @@ body {
   background-image: url('../images/Background_Art.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: left bottom;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
