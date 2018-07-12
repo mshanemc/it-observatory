@@ -87,7 +87,4 @@ router.get('/demos', function (req, res, next) {
   res.render('demos', { workshops: workshops });
 });
 
-router.get('/in-a-box', function (req, res, next) {
-  res.render('inABox');
-});
 module.exports = router;
