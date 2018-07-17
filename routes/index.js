@@ -9,49 +9,49 @@ router.get('/', function(req, res, next) {
       name : 'Automate A Business Process with Point And Click Tools',
       description : 'Still relying on humans to take routine actions? Let\'s automate that to keep data cleaner, everyone informed, and your people focused on important work. Dive into this fun 30-minute workshop on Process Builder and walk away with automation super-tips to slim your backlog fast.',
       launchURL: launcher + 'https://github.com/mshanemc/process-automation-workshop-df17',
-      docsURL : 'https://salesforce.quip.com/pMQpACuUPpGR'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-1-Automate-a-Business-Process-with-Point-and-Click-Tools.pdf'
     },
     {
       name : 'Build Apps that Span Heroku and Salesforce with Heroku Connect',
       description : 'We know that all of your apps won\'t run on Force infrastructure because of architectural or talent reasons. Take this 30-minute workshop to see how Heroku lets professional developers build apps without creating new data silos or integration headaches.',
       launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops&email=required',
-      docsURL : 'https://salesforce.quip.com/eXsHAgQhXaa6'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-2-Build-Apps-that-Span-Heroku-and-Salesforce-with-Heroku-Connect.pdf'
     },
     {
       name: 'Take Custom Apps to the Next Level with Lightning Experience Features',
       description: 'You\'ve built your first app with no code. This 30-minute workshop will explore features available only in Lightning Experience that will make your app engaging and awesome',
       launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
-      docsURL: 'https://salesforce.quip.com/PKwsAo4g5zPU'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-3-Take-Custom-Apps-to-the-Next-Level-with-Lightning-Experience-Features.pdf'
     },
     {
       name: 'Write Code that Empowers Non-Coders',
       description: 'You\'re a developer and someone asks you to add a feature to Salesforce to “do something it doesn\'t do that needs code”.  This 30-minute workshop explores your options for working smarter, not harder when adding UI and automation in Salesforce.',
       launchURL: launcher + 'https://github.com/mshanemc/codeForClicks',
-      docsURL: 'https://salesforce.quip.com/6qEJAfbdid2T'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-4-Write-Code-that-Empowers-Non-Coders.pdf'
     },
     {
       name: 'Building Apps With Clicks - A Crash Course',
       description : 'Build a working app in one sitting? This is your chance to explore the possibilities of our platform to let anyone in your organization build apps with skills they have.',
       launchURL: launcher + 'https://github.com/mshanemc/df17AppBuilding',
-      docsURL : 'https://salesforce.quip.com/F7uJAgoEL3ce'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-5-Building-Apps-with-Clicks-A-Crash-Course.pdf'
     },
     {
       name : 'Make Salesforce Your Back Office Agility Layer',
       description : 'Need to bring together customer data from SAP, Oracle, SharePoint, and others to create connected experiences? Try this workshop for a 30 minute dive into unlocking the most valuable data for your customers and building an Agility Layer in Salesforce with simple point and click tools.',
       launchURL : launcher + 'https://github.com/mshanemc/DF17integrationWorkshops&email=required',
-      docsURL : 'https://salesforce.quip.com/quIaA12BQylG'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-6-Make-Salesforce-Your-Back-Office-Agility-Layer.pdf'
     },
     {
       name : 'Engage Employees with Custom Branded Community Apps',
       description : 'Today\'s workforce is hungry for engagement and collaboration. In this 30 minute guided workshop, learn how to quickly build a custom-branded employee community app with clicks, not code. You\'ll never see your Intranet the same way again!',
       launchURL: launcher + 'https://github.com/mshanemc/community-apps-workshop-df17',
-      docsURL : 'https://salesforce.quip.com/NJHCAwgMV90U'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-7-Engage-Employees-with-Custom-Branded-Community-Apps.pdf'
     },
     {
       name : 'Design a Captivating Community with Ease for Each Audience',
       description : 'Now you can build your community once, with a different look for each audience! In this 30 minute interactive workshop you\'ll learn how to integrate CMS and personalize experiences with audiences based on profile or location or brand',
       launchURL: launcher + 'https://github.com/mshanemc/df17-community-content-workshop',
-      docsURL : 'https://salesforce.quip.com/oWM6AMv6FuWn'
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-8-Design-a-Captivating-Community-with-Ease-for-Each-Audience.pdf'
     }
   ];
   res.render('index', { workshops: workshops});
