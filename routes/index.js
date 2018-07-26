@@ -57,6 +57,31 @@ router.get('/', function(req, res, next) {
   res.render('index', { workshops: workshops});
 });
 
+router.get('/daydreamin', function (req, res, next) {
+  var workshops = [
+    {
+      name: 'Track Anything in Salesforce with Lightning Reports and Dashboards',
+      description: 'Reports and dashboards in Lightning are better than ever.  This 30-minute hands-on workshop will walk you through the new UI and new, only-in-Lightning features.',
+      launchURL: launcher + 'https://github.com/mshanemc/reporting-workshop',
+      docsURL: 'https://salesforce.quip.com/xayoAhBjdcbv'
+    },
+    {
+      name: 'Take Custom Apps to the Next Level with Lightning Experience Features',
+      description: 'You\'ve built your first app with no code. This 30-minute workshop will explore features available only in Lightning Experience that will make your app engaging and awesome',
+      launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-3-Take-Custom-Apps-to-the-Next-Level-with-Lightning-Experience-Features.pdf'
+    },
+    {
+      name: 'Write Code that Empowers Non-Coders',
+      description: 'You\'re a developer and someone asks you to add a feature to Salesforce to “do something it doesn\'t do that needs code”.  This 30-minute workshop explores your options for working smarter, not harder when adding UI and automation in Salesforce.',
+      launchURL: launcher + 'https://github.com/mshanemc/codeForClicks',
+      docsURL: 'https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/campaign/lightning-platform-wsiab/workshop-guide-4-Write-Code-that-Empowers-Non-Coders.pdf'
+    }
+
+  ];
+  res.render('daydreamin', { workshops: workshops });
+});
+
 router.get('/demos', function (req, res, next) {
   var workshops = [
     {
