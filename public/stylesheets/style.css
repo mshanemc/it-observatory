@@ -49,8 +49,9 @@ body {
   border: none;
   flex-grow: 0;
   align-self: center;
-  margin-left: -75px;
+  margin-left: -60px;
   min-width: 60vw;
+  margin-top: 100px;
 }
 
 .banner .bannerbody {
