@@ -2,7 +2,6 @@ var express = require('express');
 var workshops = require('../lib/workshop-definitions');
 
 var router = express.Router();
-var launcher = process.env.LAUNCHER || 'https://hosted-scratch.herokuapp.com/launch?template=';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -10,7 +9,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/daydreamin', function (req, res, next) {
-  res.render('daydreamin', { workshops: workshops.getDefs(['reporting', 'lightning_features', 'code_for_clicks']) })
+  res.render('index', { workshops: workshops.getDefs(['reporting', 'lightning_features', 'code_for_clicks']) })
+});
+
+router.get('/df18zone', function (req, res, next) {
+  res.render('index', { workshops: workshops.getDefs(['agility', 'heroku_connect', 'code_for_clicks', 'iot', 'crash_course', 'heroku_pipelines']) });
+});
+
+router.get('/df18rapids', function (req, res, next) {
+  res.render('index', { workshops: workshops.getDefs(['automate', 'lightning_features', 'crash_course', 'reporting']) });
 });
 
 router.get('/demos', function (req, res, next) {
