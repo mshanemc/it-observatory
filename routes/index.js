@@ -20,6 +20,14 @@ router.get('/df18rapids', function (req, res, next) {
   res.render('index', { workshops: workshops.getDefs(workshops.df18rapids) });
 });
 
+router.get('/df18adoption', function (req, res, next) {
+  res.render('index', { workshops: workshops.getDefs(workshops.df18adoption) });
+});
+
+router.get('/adoption', function (req, res, next) {
+  res.render('index', { workshops: workshops.getDefs(workshops.adoption) });
+});
+
 router.get('/demos', function (req, res, next) {
   res.render('demos', { workshops: workshops.getDefs(workshops.demos) });
 });
