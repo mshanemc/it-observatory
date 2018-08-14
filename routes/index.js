@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/:mix', function (req, res, next) {
+  console.log(req.params.mix);
   res.render('index', { workshops: workshops.getDefs(workshops[req.param.mix]) })
 });
 
