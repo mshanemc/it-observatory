@@ -14,7 +14,7 @@ router.get('/:mix', function (req, res, next) {
     let page = 'index';
 
     // special cases for adoption pages, which have different treatment
-    if (req.params.mix === 'adoption' || req.params.mix === 'df18adoption'){
+    if (req.params.mix === 'adoption' || req.params.mix === 'df18adoption' || req.params.mix === 'tdx19adoption'){
       page = 'adoption';
     }
 
