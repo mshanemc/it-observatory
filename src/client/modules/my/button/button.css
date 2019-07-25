@@ -1,0 +1,108 @@
+.slds-button_brand:link,
+.slds-button_brand:visited,
+.slds-button_brand:active,
+.slds-button--brand:link,
+.slds-button--brand:visited,
+.slds-button--brand:active {
+    color: white;
+}
+
+.slds-button:hover,
+.slds-button:focus,
+.slds-button:active,
+.slds-button:visited {
+    text-decoration: none;
+}
+
+a.slds-button {
+    text-align: center;
+}
+
+.slds-button {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+    background-clip: border-box;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    line-height: 1.875rem;
+    text-decoration: none;
+    color: #0070d2;
+    -webkit-appearance: none;
+    white-space: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a,
+button {
+    cursor: pointer;
+}
+a {
+    color: #0070d2;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+a {
+    background-color: transparent;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.slds-button_brand,
+.slds-button--brand {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddbda;
+    transition: border 0.15s linear;
+    background-color: #0070d2;
+    border-color: #0070d2;
+    color: white;
+}
+
+.slds-button_neutral,
+.slds-button--neutral {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddbda;
+    transition: border 0.15s linear;
+    border-color: #dddbda;
+    background-color: white;
+}
+
+.slds-button:hover,
+.slds-button:focus {
+    color: #005fb2;
+}
+
+.slds-button:hover,
+.slds-button:focus,
+.slds-button:active,
+.slds-button:visited {
+    text-decoration: none;
+}
+
+.slds-button_brand:hover,
+.slds-button_brand:focus,
+.slds-button--brand:hover,
+.slds-button--brand:focus {
+    background-color: #005fb2;
+    border-color: #005fb2;
+    color: white;
+}
+
+.slds-button_neutral:hover,
+.slds-button_neutral:focus,
+.slds-button--neutral:hover,
+.slds-button--neutral:focus {
+    background-color: #f4f6f9;
+}

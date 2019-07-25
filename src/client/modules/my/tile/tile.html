@@ -1,0 +1,20 @@
+<template>
+    <div class="tile_container">
+        <p class="slds-text-heading_small slds-text-align_center">
+            {tile.name}
+        </p>
+        <div>{tile.description}</div>
+        <div class="button_area">
+            <my-button
+                url={tile.launchURL}
+                variant="brand"
+                label="Create Org"
+            ></my-button>
+            <my-button
+                url={tile.docsURL}
+                variant="neutral"
+                label="Open Guide"
+            ></my-button>
+        </div>
+    </div>
+</template>
