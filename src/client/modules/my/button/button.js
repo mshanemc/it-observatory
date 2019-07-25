@@ -1,18 +1,59 @@
-import { LightningElement, api } from 'lwc';
+import { LightningElement, api, track } from 'lwc';
 
 export default class Button extends LightningElement {
-    @api url;
-    @api label;
-    @api target = '_blank';
-    @api variant = 'neutral';
+    @track styleClass = 'slds-button';
 
-    get className() {
-        let output = 'slds-button';
-        if (this.variant === 'brand') {
-            output = output + ' slds-button_brand';
-        } else if (this.variant === 'neutral') {
-            output = output + ' slds-button_neutral';
+    @api url;
+    @api target = '_blank';
+
+    @api disabled;
+
+    @api label;
+    @api
+    get variant() {
+        return this._variant;
+    }
+    set variant(value) {
+        this._variant = value;
+        switch (value) {
+            case 'base':
+                this.styleClass = 'slds-button';
+                break;
+            case 'neutral':
+                this.styleClass = 'slds-button slds-button_neutral';
+                break;
+            case 'brand':
+                this.styleClass = 'slds-button slds-button_brand';
+                break;
+            case 'destructive':
+                this.styleClass = 'slds-button slds-button_destructive';
+                break;
+            case 'success':
+                this.styleClass = 'slds-button slds-button_success';
+                break;
+            case 'inverse':
+                this.styleClass = 'slds-button slds-button_inverse';
+                break;
+            case 'outline-brand':
+                this.styleClass = 'slds-button slds-button_outline-brand';
+                break;
+            case 'text-destructive':
+                this.styleClass = 'slds-button slds-button_text-destructive';
+                break;
+            default:
+                this.styleClass = 'slds-button slds-button_neutral';
         }
-        return output;
+    }
+
+    click(event) {
+        event.stopPropagation();
+        event.preventDefault();
+        this.dispatchEvent(
+            new CustomEvent('click', {
+                detail: {
+                    label: this.label
+                }
+            })
+        );
     }
 }

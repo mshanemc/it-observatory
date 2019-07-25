@@ -1,51 +1,54 @@
 {
-  "name": "it-observatory",
-  "version": "0.0.0",
-  "author": "mshanemc",
-  "bugs": "https://github.com/mshanemc/it-observatory/issues",
-  "dependencies": {
-    "lwc-services": "^1"
-  },
-  "devDependencies": {
-    "husky": "^2.3",
-    "lint-staged": "^8.1.5"
-  },
-  "engines": {
-    "node": ">=10.0.0"
-  },
-  "homepage": "https://github.com/mshanemc/it-observatory",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && yarn test:unit"
+    "name": "it-observatory",
+    "version": "0.0.0",
+    "author": "mshanemc",
+    "bugs": "https://github.com/mshanemc/it-observatory/issues",
+    "dependencies": {
+        "lwc-services": "^1"
+    },
+    "devDependencies": {
+        "husky": "^2.3",
+        "lint-staged": "^8.1.5",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-prettier": "^3.1.0"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "homepage": "https://github.com/mshanemc/it-observatory",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged && yarn test:unit"
+        }
+    },
+    "keywords": [
+        "lwc"
+    ],
+    "license": "MIT",
+    "lint-staged": {
+        "**/*.{css,html,js,json,md,yaml,yml}": [
+            "prettier --write"
+        ],
+        "**/modules/**/*.js": [
+            "eslint"
+        ],
+        "*": [
+            "git add"
+        ]
+    },
+    "repository": "mshanemc/it-observatory",
+    "scripts": {
+        "build": "lwc-services build -m production",
+        "build:development": "lwc-services build",
+        "lint": "eslint ./src/**/*.js",
+        "prettier": "prettier --write '**/*.{css,html,js,json,md,yaml,yml}'",
+        "prettier:verify": "prettier --list-different '**/*.{css,html,js,json,md,yaml,yml}'",
+        "serve": "lwc-services serve",
+        "test:unit": "lwc-services test",
+        "test:unit:coverage": "lwc-services test --coverage",
+        "test:unit:debug": "lwc-services test --debug",
+        "test:unit:watch": "lwc-services test --watch",
+        "watch": "lwc-services watch"
     }
-  },
-  "keywords": [
-    "lwc"
-  ],
-  "license": "MIT",
-  "lint-staged": {
-    "**/*.{css,html,js,json,md,yaml,yml}": [
-      "prettier --write"
-    ],
-    "**/modules/**/*.js": [
-      "eslint"
-    ],
-    "*": [
-      "git add"
-    ]
-  },
-  "repository": "mshanemc/it-observatory",
-  "scripts": {
-    "build": "lwc-services build -m production",
-    "build:development": "lwc-services build",
-    "lint": "eslint ./src/**/*.js",
-    "prettier": "prettier --write '**/*.{css,html,js,json,md,yaml,yml}'",
-    "prettier:verify": "prettier --list-different '**/*.{css,html,js,json,md,yaml,yml}'",
-    "serve": "lwc-services serve",
-    "test:unit": "lwc-services test",
-    "test:unit:coverage": "lwc-services test --coverage",
-    "test:unit:debug": "lwc-services test --debug",
-    "test:unit:watch": "lwc-services test --watch",
-    "watch": "lwc-services watch"
-  }
 }
