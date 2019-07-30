@@ -1,12 +1,5 @@
 const pages = {
-    tdx19dev: [
-        'heroku_connect',
-        'code_for_clicks',
-        'heroku_pipelines',
-        'lightning_vf',
-        'cdc',
-        'lwc'
-    ],
+    tdx19dev: ['heroku_connect', 'code_for_clicks', 'heroku_pipelines', 'lightning_vf', 'cdc', 'lwc'],
 
     tdx19admin: ['automate', 'crash_course', 'agility', 'flows', 'epb'],
     tdx19adoption: ['flows_simple', 'go_live', 'js_buttons', 'console_apps'],
@@ -69,12 +62,7 @@ const pages = {
 
     df18rapids: ['automate', 'agility', 'crash_course', 'reporting'],
 
-    df18adoption: [
-        'adoption_sales',
-        'adoption_service',
-        'go_live',
-        'quick_actions'
-    ],
+    df18adoption: ['adoption_sales', 'adoption_service', 'go_live', 'quick_actions'],
 
     sfwt: ['crash_course', 'automate', 'go_live', 'adoption_service'],
 
@@ -127,7 +115,8 @@ const pages = {
 
     cpq: ['cpq'],
 
-    brokenWorkshops: ['iot']
+    brokenWorkshops: ['iot'],
+    apps90: ['equipment_calibration']
 };
 
 export { pages };
