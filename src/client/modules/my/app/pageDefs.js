@@ -116,7 +116,7 @@ const pages = {
     cpq: ['cpq'],
 
     brokenWorkshops: ['iot'],
-    apps90: ['equipment_calibration']
+    ninetySec: ['equipment_calibration']
 };
 
 export { pages };

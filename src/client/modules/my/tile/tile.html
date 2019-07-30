@@ -5,16 +5,12 @@
         </p>
         <div>{tile.description}</div>
         <div class="button_area">
-            <my-button
-                url={tile.launchURL}
-                variant="brand"
-                label="Create Org"
-            ></my-button>
-            <my-button
-                url={tile.docsURL}
-                variant="neutral"
-                label="Open Guide"
-            ></my-button>
+            <template if:true={tile.launchURL}>
+                <my-button url={tile.launchURL} variant="brand" label="Create Org"></my-button>
+            </template>
+            <template if:true={tile.docsURL}>
+                <my-button url={tile.docsURL} variant="neutral" label="Open Guide"></my-button>
+            </template>
         </div>
     </div>
 </template>
