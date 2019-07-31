@@ -338,7 +338,8 @@ const workshops = [
         shortname: 'equipment_calibration',
         name: 'Equipment Calibration',
         description: '90 second app by Mike White',
-        launchURL: launcher + 'https://github.com/mshanemc/EquipmentCalibration'
+        launchURL: launcher + 'https://github.com/MBWhite01/EquipmentCalibration',
+        docsURL: 'https://github.com/MBWhite01/EquipmentCalibration'
     }
 ];
 
