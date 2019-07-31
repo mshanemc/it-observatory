@@ -340,6 +340,13 @@ const workshops = [
         description: '90 second app by Mike White',
         launchURL: launcher + 'https://github.com/MBWhite01/EquipmentCalibration',
         docsURL: 'https://github.com/MBWhite01/EquipmentCalibration'
+    },
+    {
+        name: 'Texting App',
+        shortname: 'texting_app',
+        description: '90 second app by Michelle Lavalette',
+        docsURL: 'https://github.com/mshanemc/twilio-text-app',
+        launchURL: launcher + 'https://github.com/mshanemc/twilio-text-app'
     }
 ];
 
