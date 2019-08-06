@@ -7,11 +7,14 @@
         "lwc-services": "^1"
     },
     "devDependencies": {
-        "husky": "^2.3",
-        "lint-staged": "^8.1.5",
+        "@types/jest": "^24.0.17",
+        "@types/node-fetch": "^2.5.0",
         "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-prettier": "^3.1.0"
+        "eslint-plugin-prettier": "^3.1.0",
+        "husky": "^2.3",
+        "lint-staged": "^8.1.5",
+        "node-fetch": "^2.6.0"
     },
     "engines": {
         "node": ">=10.0.0"
