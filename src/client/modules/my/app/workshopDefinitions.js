@@ -347,7 +347,13 @@ const workshops = [
         description: '90 second app by Michelle Lavalette',
         docsURL: 'https://github.com/mshanemc/twilio-text-app',
         launchURL: launcher + 'https://github.com/mshanemc/twilio-text-app'
+    },
+    {
+        name: 'Community Cloud Campfire',
+        shortname: 'community_campfire',
+        description: `Salesforce Community Cloud trial environment that provides an in-depth hands-on walkthrough of Salesforce Communities that is used for all Community Cloud Campfires. The workshop will give you first-hand experience in building beautiful experiences for external use cases and you'll learn how to leverage the Salesforce platform to take your business to the next level.`,
+        launchURL: launcher + 'https://github.com/mshanemc/community-campfire'
     }
 ];
 
-export { workshops };
+export { workshops, launcher, launcher_pre };

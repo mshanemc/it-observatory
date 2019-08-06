@@ -114,6 +114,7 @@ const pages = {
     ],
 
     cpq: ['cpq'],
+    community: ['community_campfire'],
 
     brokenWorkshops: ['iot'],
     ninetySec: ['equipment_calibration', 'texting_app']
