@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
 import * as fetch from 'node-fetch';
 
-import { pages } from '../pageDefs';
 import { workshops, launcher, launcher_pre } from '../workshopDefinitions';
 
 const fixURL = fullUrl => {
@@ -11,37 +10,32 @@ const fixURL = fullUrl => {
         .replace('&email=required', '');
 };
 
-const checkURL = async workshop => {
-    return fetch(fixURL(workshop.launchURL));
-};
+describe('check all the urls', () => {
+    jest.setTimeout(10000);
 
-describe('checks that all pages and each tile actually exists', () => {
-    for (const key of Object.keys(pages)) {
-        // for each item in that page
-        it(`validates pages for ${key}`, () => {
-            pages[key].forEach(shortname => {
-                expect(workshops).toEqual(
-                    expect.arrayContaining([
-                        expect.objectContaining({
-                            shortname
-                        })
-                    ])
-                );
+    const workshopsWithURLs = workshops.filter(workshop => workshop.launchURL);
+
+    let organizedResults = [];
+
+    beforeAll(async () => {
+        const fetchResults = await Promise.all(workshopsWithURLs.map(workshop => fetch(fixURL(workshop.launchURL))));
+        fetchResults.forEach((result, index) => {
+            organizedResults.push({
+                url: workshopsWithURLs[index].launchURL,
+                status: result.status
             });
         });
-    }
-});
+    });
 
-test('validates that all the github urls exists', async () => {
-    const requests = workshops.filter(workshop => workshop.launchURL).map(workshop => checkURL(workshop));
+    test('all urls were present', () => {
+        expect(organizedResults.length).toBe(workshopsWithURLs.length);
+        expect(organizedResults.length).toBeGreaterThan(0);
 
-    const responses = await Promise.all(requests);
-
-    responses.forEach(response => {
-        if (response.status !== 200) {
-            console.error('missing repo');
-            console.error('response');
-        }
-        expect(response.status).toBe(200);
+        organizedResults.forEach((result, index) => {
+            expect(result).toEqual({
+                url: workshopsWithURLs[index].launchURL,
+                status: 200
+            });
+        });
     });
 });
