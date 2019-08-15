@@ -64,7 +64,28 @@ const pages = {
 
     df18adoption: ['adoption_sales', 'adoption_service', 'go_live', 'quick_actions'],
 
-    sfwt: ['crash_course', 'automate', 'go_live', 'adoption_service'],
+    sfwt: [
+        'automate',
+        'cdc',
+        'lwc',
+        'epb',
+        'flows',
+        'heroku_connect',
+        'lightning_features',
+        'code_for_clicks',
+        'crash_course',
+        'agility',
+        'adoption_sales',
+        'adoption_service',
+        'go_live',
+        'quick_actions',
+        'lightning_vf',
+        'reporting',
+        'js_buttons',
+        'heroku_pipelines',
+        'console_apps',
+        'flows_simple'
+    ],
 
     daydreamin: ['reporting', 'lightning_features', 'code_for_clicks'],
 
