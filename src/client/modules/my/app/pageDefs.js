@@ -104,6 +104,7 @@ const pages = {
     demos: [
         'electron_core_object',
         'demo_custExp',
+        'demo_devexp',
         'demo_departmental',
         'demo_employeeengagement',
         'demo_align_heroku',
@@ -122,7 +123,7 @@ const pages = {
         // 'demo_rviot'
     ],
 
-    fy20plays: ['demo_employeeengagement', 'demo_custExp', 'demo_departmental'],
+    fy20plays: ['demo_employeeengagement', 'demo_custExp', 'demo_departmental', 'demo_devexp'],
 
     df18campground: [
         'demo_volvo_low_code',

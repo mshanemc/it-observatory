@@ -328,6 +328,14 @@ const workshops = [
         launchURL: launcher + 'https://github.com/mshanemc/solutions-departmental-apps'
     },
     {
+        shortname: 'demo_devexp',
+        name: 'Developer Experience',
+        description:
+            "4 demos for IT audiences...Electron Motor's branded focusing on low-code, developer productivity with Lightning, developer productivity with Heroku, and data integration.  The guide also contains the recorded webinar and each demo's instructions",
+        docsURL: 'https://salesforce.quip.com/vEj3A3LyUkeh',
+        launchURL: launcher + 'https://github.com/gabesumner/solutions-DX'
+    },
+    {
         shortname: 'electron_core_object',
         name: 'Electron Motors Core Object Demo',
         description: 'Tell the full platform story with our fake car company and the Core Object concept',
