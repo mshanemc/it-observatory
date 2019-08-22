@@ -355,6 +355,13 @@ const workshops = [
         description: '90 second app by Michelle Lavalette',
         docsURL: 'https://github.com/mshanemc/twilio-text-app',
         launchURL: launcher + 'https://github.com/mshanemc/twilio-text-app'
+    },
+    {
+        name: 'Ping Pong App',
+        shortname: 'pingpong',
+        description: '90 second app by Kristi Brown',
+        // docsURL: 'https://github.com/mshanemc/twilio-text-app',
+        launchURL: launcher + 'https://github.com/mshanemc/pingpong'
     }
 ];
 
