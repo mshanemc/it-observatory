@@ -138,7 +138,7 @@ const pages = {
     cpq: ['cpq'],
 
     brokenWorkshops: ['iot'],
-    ninetySec: ['equipment_calibration', 'texting_app', 'pingpong']
+    ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy']
 };
 
 export { pages };

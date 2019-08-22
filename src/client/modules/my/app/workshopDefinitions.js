@@ -360,8 +360,15 @@ const workshops = [
         name: 'Ping Pong App',
         shortname: 'pingpong',
         description: '90 second app by Kristi Brown',
-        // docsURL: 'https://github.com/mshanemc/twilio-text-app',
+        docsURL: 'https://github.com/mshanemc/pingpong',
         launchURL: launcher + 'https://github.com/mshanemc/pingpong'
+    },
+    {
+        name: '#AudiArmy',
+        shortname: 'audiarmy',
+        description: '90 second app by Donald Bohrisch',
+        docsURL: 'https://github.com/mshanemc/audiarmy',
+        launchURL: launcher + 'https://github.com/mshanemc/audiarmy'
     }
 ];
 
