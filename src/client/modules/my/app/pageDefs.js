@@ -1,3 +1,21 @@
+const adoptionHeaders = {
+    title: 'Lightning Adoption Workshops',
+    subhead: "It's Better in Lightning"
+};
+
+const titleOverrides = {
+    tdx19adoption: adoptionHeaders,
+    df18adoption: adoptionHeaders,
+    adoption: adoptionHeaders,
+    cpq: {
+        title: 'Salesforce CPQ'
+    },
+    ninetySec: {
+        title: '90 Second Apps',
+        subhead: 'See what our Trailblazers can Build'
+    }
+};
+
 const pages = {
     tdx19dev: ['heroku_connect', 'code_for_clicks', 'heroku_pipelines', 'lightning_vf', 'cdc', 'lwc'],
 
@@ -141,4 +159,4 @@ const pages = {
     ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy']
 };
 
-export { pages };
+export { pages, titleOverrides, adoptionHeaders };
