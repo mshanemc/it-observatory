@@ -156,7 +156,8 @@ const pages = {
     cpq: ['cpq'],
 
     brokenWorkshops: ['iot'],
-    ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy']
+    ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy'],
+    df19cg: ['df19cg1']
 };
 
 export { pages, titleOverrides, adoptionHeaders };

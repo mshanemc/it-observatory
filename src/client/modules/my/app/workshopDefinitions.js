@@ -369,6 +369,15 @@ const workshops = [
         description: '90 second app by Donald Bohrisch',
         docsURL: 'https://github.com/mshanemc/audiarmy',
         launchURL: launcher + 'https://github.com/mshanemc/audiarmy'
+    },
+
+    // df 19 campground demos
+    {
+        name: 'Employee Apps',
+        shortname: 'df19cg1',
+        description: 'booth 1 (mule, workday, salesforce, identity, mobile)',
+        docsURL: 'https://salesforce.quip.com/x3cCA7jxbjaj',
+        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
     }
 ];
 
