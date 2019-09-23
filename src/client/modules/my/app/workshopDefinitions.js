@@ -373,7 +373,7 @@ const workshops = [
 
     // df 19 campground demos
     {
-        name: 'Employee Apps',
+        name: 'Demo 1: Single Portal',
         shortname: 'df19cg1',
         description: 'booth 1 (mule, workday, salesforce, identity, mobile)',
         docsURL: 'https://salesforce.quip.com/x3cCA7jxbjaj',
