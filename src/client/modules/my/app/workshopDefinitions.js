@@ -373,6 +373,13 @@ const workshops = [
 
     // df 19 campground demos
     {
+        name: 'App Builder Wall',
+        shortname: 'app-wall',
+        description: 'hands on with the new mobile app in App Builder',
+        docsURL: 'https://salesforce.quip.com/kJiVACdsGp4r',
+        launchURL: launcher_pre + 'https://github.com/gabesumner/app-builder-wall'
+    },
+    {
         name: 'Demo 1: Single Portal',
         shortname: 'df19cg1',
         description: 'booth 1 (mule, workday, salesforce, identity, mobile)',
