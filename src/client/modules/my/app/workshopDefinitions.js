@@ -376,7 +376,7 @@ const workshops = [
         name: 'App Builder Wall',
         shortname: 'app-wall',
         description: 'hands on with the new mobile app in App Builder',
-        docsURL: 'https://salesforce.quip.com/kJiVACdsGp4r',
+        docsURL: 'https://salesforce.quip.com/uk2dAiQeGd7i',
         launchURL: launcher_pre + 'https://github.com/gabesumner/app-builder-wall'
     },
     {
