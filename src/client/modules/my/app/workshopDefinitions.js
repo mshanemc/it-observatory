@@ -385,6 +385,13 @@ const workshops = [
         description: 'booth 1 (mule, workday, salesforce, identity, mobile)',
         docsURL: 'https://salesforce.quip.com/x3cCA7jxbjaj',
         launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
+    },
+    {
+        name: 'Demo 3: Departmental Apps',
+        shortname: 'df19cg3',
+        description: 'booth 3 (prediction builder, lightning platform)',
+        docsURL: 'https://salesforce.quip.com/RnqcArZV2hAJ',
+        launchURL: launcher_pre + 'https://github.com/gabesumner/df19-departmental-productivity'
     }
 ];
 
