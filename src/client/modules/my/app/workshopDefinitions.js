@@ -311,7 +311,7 @@ const workshops = [
         description:
             "Electron Motors branded demo of SSO/Aloha, a chatter-powered intranet, Cadalys Concierge, and employee apps (org chart and safety reporting).  There's even a story for the BRK",
         docsURL: 'https://salesforce.quip.com/JHbUACURUYc1',
-        launchURL: launcher + 'https://github.com/mshanemc/solutions-engagement'
+        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement'
     },
     {
         shortname: 'demo_custExp',
