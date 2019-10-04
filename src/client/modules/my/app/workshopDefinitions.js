@@ -387,6 +387,13 @@ const workshops = [
         launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
     },
     {
+        name: 'Demo 1: Single Portal',
+        shortname: 'df19cg2',
+        description: 'booth 2 (concierge, knowledge, chatbots)',
+        docsURL: 'https://salesforce.quip.com/IB1DAifIANFy',
+        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
+    },
+    {
         name: 'Demo 3: Departmental Apps',
         shortname: 'df19cg3',
         description: 'booth 3 (prediction builder, lightning platform)',
