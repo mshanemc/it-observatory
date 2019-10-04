@@ -380,14 +380,14 @@ const workshops = [
         launchURL: launcher_pre + 'https://github.com/gabesumner/app-builder-wall'
     },
     {
-        name: 'Demo 1: Single Portal',
+        name: 'Demo 1: Transform the Employee Experience',
         shortname: 'df19cg1',
-        description: 'booth 1 (mule, workday, salesforce, identity, mobile)',
+        description: 'booth 1 (mule, workday, salesforce, identity, mobile, lwc)',
         docsURL: 'https://salesforce.quip.com/x3cCA7jxbjaj',
         launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
     },
     {
-        name: 'Demo 1: Single Portal',
+        name: 'Demo 2: Empower Employees with Intelligent Self-Service',
         shortname: 'df19cg2',
         description: 'booth 2 (concierge, knowledge, chatbots)',
         docsURL: 'https://salesforce.quip.com/IB1DAifIANFy',
