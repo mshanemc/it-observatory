@@ -157,7 +157,7 @@ const pages = {
 
     brokenWorkshops: ['iot'],
     ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy'],
-    df19cg: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3']
+    df19cg: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6']
 };
 
 export { pages, titleOverrides, adoptionHeaders };

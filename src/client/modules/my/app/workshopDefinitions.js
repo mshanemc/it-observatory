@@ -399,6 +399,13 @@ const workshops = [
         description: 'booth 3 (prediction builder, lightning platform)',
         docsURL: 'https://salesforce.quip.com/RnqcArZV2hAJ',
         launchURL: launcher_pre + 'https://github.com/gabesumner/df19-departmental-productivity'
+    },
+    {
+        name: 'Demo 6: Build Amazing Customer Experiences',
+        shortname: 'df19cg6',
+        description: 'booth 6 (heroku + heroku shield, heroku enterprise, private spaces)',
+        docsURL: 'https://salesforce.quip.com/HdJFARzV976h',
+        launchURL: launcher_pre + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
     }
 ];
 
