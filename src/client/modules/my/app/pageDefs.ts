@@ -5,7 +5,7 @@ const adoptionHeaders: Header = {
     subhead: "It's Better in Lightning"
 };
 
-const titleOverrides = {
+const titleOverrides: { [name: string]: Header } = {
     tdx19adoption: adoptionHeaders,
     df18adoption: adoptionHeaders,
     adoption: adoptionHeaders,
@@ -18,7 +18,7 @@ const titleOverrides = {
     }
 };
 
-const pages = {
+const pages: { [name: string]: string[] } = {
     tdx19dev: ['heroku_connect', 'code_for_clicks', 'heroku_pipelines', 'lightning_vf', 'cdc', 'lwc'],
 
     tdx19admin: ['automate', 'crash_course', 'agility', 'flows', 'epb'],

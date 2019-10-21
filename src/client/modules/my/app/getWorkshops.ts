@@ -11,7 +11,7 @@ const convertToInternal = input => {
     });
 };
 
-const getWorkshops = (path, hash) => {
+const getWorkshops = (path = '', hash = '') => {
     let output = [];
     let internal = false;
 
