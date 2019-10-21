@@ -1,4 +1,6 @@
-const adoptionHeaders = {
+import { Header } from '../../../typeDefs';
+
+const adoptionHeaders: Header = {
     title: 'Lightning Adoption Workshops',
     subhead: "It's Better in Lightning"
 };
