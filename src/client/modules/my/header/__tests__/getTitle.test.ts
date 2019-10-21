@@ -3,7 +3,7 @@ import { adoptionHeaders } from '../../app/pageDefs';
 
 describe('tests routing matches', () => {
     it('no path, no hash', () => {
-        const output = getTitle();
+        const output = getTitle(undefined);
         expect(output).toEqual(standardHeader);
     });
 

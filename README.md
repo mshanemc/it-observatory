@@ -8,13 +8,13 @@ The source files are located in the [`src`](./src) folder. All web components ar
 
 ## Routes (Pages)
 
-`./src/client/modules/my/app/pageDefs.js` holds the various "routes".
+`./src/client/modules/my/app/pageDefs.ts` holds the various "routes".
 
 You can use either `/something` or `#something` to get there (# is preferred), which should match a property of the `pages` object. This array is shortnames from the workhop definitions
 
 ## Workshop Definitions (Tiles)
 
-`./src/client/modules/my/app/workshopDefinitions.js` holds the array of workshops.
+`./src/client/modules/my/app/workshopDefinitions.ts` holds the array of workshops (that might be demos or non-workshop things).
 
 - shortname is required to find it.
 - name, description are recommended

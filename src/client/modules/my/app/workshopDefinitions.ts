@@ -1,8 +1,10 @@
-var launcher = 'https://hosted-scratch.herokuapp.com/launch?template=';
-// eslint-disable-next-line no-unused-vars
-var launcher_pre = 'https://deployer-prerelease.herokuapp.com/launch?template=';
+import { Deployable } from '../../../typeDefs';
 
-const workshops = [
+const launcher = 'https://hosted-scratch.herokuapp.com/launch?template=';
+// eslint-disable-next-line no-unused-vars
+const launcher_pre = 'https://deployer-prerelease.herokuapp.com/launch?template=';
+
+const workshops: Deployable[] = [
     {
         shortname: 'lwc',
         name: 'Workshop: 5 Things You Can Now Do with Lightning Web Components',

@@ -2,7 +2,7 @@ import { LightningElement, api, track } from 'lwc';
 
 export default class Button extends LightningElement {
     @track styleClass = 'slds-button';
-
+    _variant;
     @api url;
     @api target = '_blank';
 

@@ -1,9 +1,12 @@
 {
-    "extends": ["@salesforce/eslint-config-lwc/recommended", "prettier"],
-    "plugins": ["prettier"],
+    "parser": "@typescript-eslint/parser",
+    "extends": ["@salesforce/eslint-config-lwc/recommended"],
+    "plugins": ["@typescript-eslint"],
     "rules": {
         "@lwc/lwc/no-async-operation": "warn",
         "@lwc/lwc/no-inner-html": "warn",
-        "@lwc/lwc/no-document-query": "warn"
+        "@lwc/lwc/no-document-query": "warn",
+        "no-undef": "off",
+        "no-unused-vars": "off"
     }
 }

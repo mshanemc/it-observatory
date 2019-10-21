@@ -1,6 +1,7 @@
 import { titleOverrides } from '../app/pageDefs';
+import { Header } from '../../../typeDefs';
 
-const standardHeader = {
+const standardHeader: Header = {
     title: 'Salesforce Platform Workshops',
     subhead: "Now Building Apps is Everyone's Business"
 };
