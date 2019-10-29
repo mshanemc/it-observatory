@@ -206,6 +206,13 @@ const workshops: Deployable[] = [
         docsURL: 'https://quip.com/CZQVAT6E1rsz'
     },
     {
+        shortname: 'new_mobile_app',
+        name: 'Get Ready for the New Salesforce mobile app',
+        description: `Get hands on with the new Mobile app! In this workshop, you will learn how to take existing Lightning customizations to your users' phones, and walk away with some common tips to make pages better for both mobile and desktop.`,
+        launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
+        docsURL: 'https://salesforce.quip.com/BY0cAfYd3qe3'
+    },
+    {
         shortname: 'quick_actions',
         name: 'Boost Productivity with Quick Actions',
         description:
@@ -220,6 +227,28 @@ const workshops: Deployable[] = [
             'JavaScript Buttons is one area that needs to be addressed prior to moving to Lightning Experience. Come discover the Lightning Configuration Converter to understand the manual and automated ways in which you should replace your JavaScript Buttons.',
         launchURL: launcher + 'https://github.com/mshanemc/js-buttons',
         docsURL: 'https://quip.com/RHBdAp0sApaH'
+    },
+    {
+        shortname: 'user_engagement',
+        name: 'Improve Adoption with User Engagement Platform Tools',
+        description: ''
+        // launchURL: launcher + 'https://github.com/mshanemc/js-buttons',
+        // docsURL: 'https://quip.com/RHBdAp0sApaH'
+    },
+
+    {
+        shortname: 'lex_now_what',
+        name: 'Lightning Experience Is Here, What Now',
+        description: 'Learn how to make simple updates to your Salesforce org to make Lightning Experience more than an new UI for your users.',
+        // launchURL: launcher + 'https://github.com/mshanemc/js-buttons',
+        docsURL: 'https://salesforce.quip.com/LAafAMElLbYu'
+    },
+    {
+        shortname: 'empower_flow',
+        name: 'Empower your Users with Flow in Lightning Apps and Pages',
+        description: `You've heard Flow is a great tool to automate processes and engage users, but have you seen all of the ways Flow can be used in Lightning Experience? In this workshop you will add Flows to Lightning Apps and Lightning Components to surface screen flows where and when your users need them!`,
+        launchURL: launcher + 'https://github.com/mshanemc/df19-flow-workshop',
+        docsURL: 'https://salesforce.quip.com/F1FGAmlbwNSV'
     },
     {
         shortname: 'lightning_vf',
