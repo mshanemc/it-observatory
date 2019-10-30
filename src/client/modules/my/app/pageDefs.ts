@@ -2,19 +2,22 @@ import { Header } from '../../../typeDefs';
 
 const adoptionHeaders: Header = {
     title: 'Lightning Adoption Workshops',
-    subhead: "It's Better in Lightning"
+    subhead: `It's Better in Lightning`
+};
+
+const lexHeaders: Header = {
+    title: 'Lightning Experience Workshops',
+    subhead: 'Activate Lightning Experience',
+    logoUrl: '/resources/lwc.png'
 };
 
 const titleOverrides: { [name: string]: Header } = {
     tdx19adoption: adoptionHeaders,
+    df19lex: lexHeaders,
     df18adoption: adoptionHeaders,
     adoption: adoptionHeaders,
     cpq: {
         title: 'Salesforce CPQ'
-    },
-    ninetySec: {
-        title: '90 Second Apps',
-        subhead: 'See what our Trailblazers can Build'
     }
 };
 
@@ -159,7 +162,6 @@ const pages: { [name: string]: string[] } = {
     cpq: ['cpq'],
 
     brokenWorkshops: ['iot'],
-    ninetySec: ['equipment_calibration', 'texting_app', 'pingpong', 'audiarmy'],
     df19cg: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6']
 };
 

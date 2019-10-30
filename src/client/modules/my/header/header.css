@@ -8,6 +8,7 @@
 img {
     max-width: 150px;
     margin: 1vh;
+    max-height: 80px;
 }
 
 .slds-text-heading_large,

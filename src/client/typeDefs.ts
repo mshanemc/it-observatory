@@ -1,6 +1,7 @@
 interface Header {
     title: string;
     subhead?: string;
+    logoUrl?: string;
 }
 
 interface Deployable {

@@ -373,34 +373,6 @@ const workshops: Deployable[] = [
         docsURL: 'https://docs.google.com/presentation/d/16ewwBG9NN5F7RDpm0LcFfkt-s25HYzCIj4tXmyvSLX8/edit#slide=id.g54fd34ed74_0_322',
         launchURL: launcher + 'https://github.com/gabesumner/electron-motors-sfdx'
     },
-    {
-        shortname: 'equipment_calibration',
-        name: 'Equipment Calibration',
-        description: '90 second app by Mike White',
-        launchURL: launcher + 'https://github.com/MBWhite01/EquipmentCalibration',
-        docsURL: 'https://github.com/MBWhite01/EquipmentCalibration'
-    },
-    {
-        name: 'Texting App',
-        shortname: 'texting_app',
-        description: '90 second app by Michelle Lavalette',
-        docsURL: 'https://github.com/mshanemc/twilio-text-app',
-        launchURL: launcher + 'https://github.com/mshanemc/twilio-text-app'
-    },
-    {
-        name: 'Ping Pong App',
-        shortname: 'pingpong',
-        description: '90 second app by Kristi Brown',
-        docsURL: 'https://github.com/mshanemc/pingpong',
-        launchURL: launcher + 'https://github.com/mshanemc/pingpong'
-    },
-    {
-        name: '#AudiArmy',
-        shortname: 'audiarmy',
-        description: '90 second app by Donald Bohrisch',
-        docsURL: 'https://github.com/mshanemc/audiarmy',
-        launchURL: launcher + 'https://github.com/mshanemc/audiarmy'
-    },
 
     // df 19 campground demos
     {
