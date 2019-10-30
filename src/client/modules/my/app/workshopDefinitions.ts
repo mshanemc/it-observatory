@@ -65,6 +65,15 @@ const workshops: Deployable[] = [
         docsURL: 'https://org62.my.salesforce.com/sfc/p/000000000062/a/0M000000Fkdq/ApV8wFxmSvWWb8PEgPUyyFV6zl9uvV112J0msTcS.mw'
     },
     {
+        shortname: 'heroku_connect_TH',
+        name: 'Build Apps that Span Heroku and Salesforce with Heroku Connect',
+        description:
+            "We know that all of your apps won't run on Force infrastructure because of architectural or talent reasons. Take this 30-minute workshop to see how Heroku lets professional developers build apps without creating new data silos or integration headaches.",
+        // launchURL: launcher + 'https://github.com/mshanemc/DF17integrationWorkshops&email=required',
+        internalDocsURL: 'https://salesforce.quip.com/8uRzAUqScOtA',
+        docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quickstart-heroku-connect'
+    },
+    {
         shortname: 'lightning_features',
         name: 'Take Custom Apps to the Next Level with Lightning Experience Features',
         description:

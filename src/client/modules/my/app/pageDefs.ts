@@ -24,7 +24,7 @@ const titleOverrides: { [name: string]: Header } = {
 const pages: { [name: string]: string[] } = {
     df19lex: ['adoption_sales', 'adoption_service', 'flows_simple', 'console_apps', 'user_engagement', 'js_buttons', 'lex_now_what'],
     df19meadow: ['flows', 'crash_course', 'automate', 'agility'],
-    df19park: ['cdc', 'code_for_clicks', 'lwc', 'heroku_connect', 'epb_nba', 'nba', 'new_mobile_app', 'vision_language', 'einstein_discovery'],
+    df19park: ['cdc', 'code_for_clicks', 'lwc', 'heroku_connect_TH', 'epb_nba', 'nba', 'new_mobile_app', 'vision_language', 'einstein_discovery'],
     tdx19dev: ['heroku_connect', 'code_for_clicks', 'heroku_pipelines', 'lightning_vf', 'cdc', 'lwc'],
 
     tdx19admin: ['automate', 'crash_course', 'agility', 'flows', 'epb'],
