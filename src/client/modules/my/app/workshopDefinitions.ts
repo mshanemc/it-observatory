@@ -275,9 +275,9 @@ const workshops: Deployable[] = [
     {
         shortname: 'user_engagement',
         name: 'Improve Adoption with User Engagement Platform Tools',
-        description: ''
-        // launchURL: launcher + 'https://github.com/mshanemc/js-buttons',
-        // docsURL: 'https://quip.com/RHBdAp0sApaH'
+        description: 'Use the new User Engagement platform to engage and encourage your users to stay in Lightning Experience.',
+        launchURL: launcher + 'https://github.com/mshanemc/adoption-engagement-tools',
+        docsURL: 'https://salesforce.quip.com/Si38Ay3jInqD'
     },
 
     {
