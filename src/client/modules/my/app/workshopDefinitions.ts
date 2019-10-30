@@ -82,6 +82,41 @@ const workshops: Deployable[] = [
         docsURL: 'https://salesforce.quip.com/6qEJAfbdid2T'
     },
     {
+        shortname: 'new_mobile_app',
+        name: 'Get Ready for the New Salesforce Mobile App',
+        description: '',
+        internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
+        docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
+    },
+    {
+        shortname: 'nba',
+        name: 'Build Your Strategy with Einstein Next Best Action',
+        description:
+            'Get hands-on with Einstein Next Best Action! Join us in this workshop to learn more about Einstein Next Best Action and how to build a strategy that enables you to produce recommendations for your end users.'
+        // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
+        // docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
+    },
+    {
+        shortname: 'epb_nba',
+        name: 'Put Predictions In Action with Einstein Prediction Builder and Next Best Action',
+        description: `Learn how to harness the power of both Einstein Prediction Builder and Einstein Next Best Action to produce recommendations to your end users that are powered by Einstein!`
+    },
+
+    {
+        shortname: 'vision_language',
+        name: 'Get Hands-on with the Einstein Vision and Language Model Builder',
+        description: `Before when you wanted to use Einstein Vision and Language, you needed to make API calls from the command line with cURL or a tool like Postman. Now, you can use the Einstein Vision and Language Model Builder by Salesforce Labs to create datasets, build models, and make predictions without leaving Salesforce. During this workshop, you'll learn everything you need to know to make predictions on unstructured data like images and text using our newest app — available free on the AppExchange. Less work. Faster implementation.`
+        // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
+        // docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
+    },
+    {
+        shortname: 'einstein_discovery',
+        name: 'Get Started with Einstein Discovery',
+        description: `Different business processes require different strategies for building predictions, whether it involves external data or data right inside your CRM. Join this hands-on workshop to learn how you can apply Einstein Discovery to common business challenges using the power of AI and machine learning.`
+        // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
+        // docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
+    },
+    {
         shortname: 'crash_course',
         name: 'Building Apps With Clicks - A Crash Course',
         description:
