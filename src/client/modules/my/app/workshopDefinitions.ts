@@ -389,7 +389,7 @@ const workshops: Deployable[] = [
         description:
             "Electron Motors branded demo of SSO/Aloha, a chatter-powered intranet, Cadalys Concierge, and employee apps (org chart and safety reporting).  There's even a story for the BRK",
         docsURL: 'https://salesforce.quip.com/JHbUACURUYc1',
-        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement'
+        launchURL: launcher + 'https://github.com/mshanemc/solutions-engagement'
     },
     {
         shortname: 'demo_custExp',
@@ -427,35 +427,35 @@ const workshops: Deployable[] = [
         shortname: 'app-wall',
         description: 'hands on with the new mobile app in App Builder',
         docsURL: 'https://salesforce.quip.com/uk2dAiQeGd7i',
-        launchURL: launcher_pre + 'https://github.com/gabesumner/app-builder-wall'
+        launchURL: launcher + 'https://github.com/gabesumner/app-builder-wall'
     },
     {
         name: 'Demo 1: Transform the Employee Experience',
         shortname: 'df19cg1',
         description: 'booth 1 (mule, workday, salesforce, identity, mobile, lwc)',
         docsURL: 'https://salesforce.quip.com/x3cCA7jxbjaj',
-        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
+        launchURL: launcher + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
     },
     {
         name: 'Demo 2: Empower Employees with Intelligent Self-Service',
         shortname: 'df19cg2',
         description: 'booth 2 (concierge, knowledge, chatbots)',
         docsURL: 'https://salesforce.quip.com/IB1DAifIANFy',
-        launchURL: launcher_pre + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
+        launchURL: launcher + 'https://github.com/mshanemc/solutions-engagement/tree/df19'
     },
     {
         name: 'Demo 3: Departmental Apps',
         shortname: 'df19cg3',
         description: 'booth 3 (prediction builder, lightning platform)',
         docsURL: 'https://salesforce.quip.com/RnqcArZV2hAJ',
-        launchURL: launcher_pre + 'https://github.com/gabesumner/df19-departmental-productivity'
+        launchURL: launcher + 'https://github.com/gabesumner/df19-departmental-productivity'
     },
     {
         name: 'Demo 6: Build Amazing Customer Experiences',
         shortname: 'df19cg6',
         description: 'booth 6 (heroku + heroku shield, heroku enterprise, private spaces)',
         docsURL: 'https://salesforce.quip.com/HdJFARzV976h',
-        launchURL: launcher_pre + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
+        launchURL: launcher + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
     }
 ];
 
