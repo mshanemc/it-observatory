@@ -256,7 +256,7 @@ const workshops: Deployable[] = [
         shortname: 'new_mobile_app2',
         name: 'Get Ready for the New Salesforce mobile app',
         description: `Get hands on with the new Mobile app! In this workshop, you will learn how to take existing Lightning customizations to your users' phones, and walk away with some common tips to make pages better for both mobile and desktop.`,
-        launchURL: launcher + 'https://github.com/mshanemc/volunteering-base-pkg',
+        launchURL: launcher + 'https://github.com/mshanemc/new-mobile-app',
         docsURL: 'https://salesforce.quip.com/BY0cAfYd3qe3'
     },
     {
