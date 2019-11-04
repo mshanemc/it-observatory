@@ -110,7 +110,7 @@ const workshops: Deployable[] = [
         shortname: 'epb_nba',
         name: 'Put Predictions In Action with Einstein Prediction Builder and Next Best Action',
         description: `Learn how to harness the power of both Einstein Prediction Builder and Einstein Next Best Action to produce recommendations to your end users that are powered by Einstein!`,
-        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
+        launchURL: launcher_pre + 'https://github.com/mcasalaina/epbnbascratchorg'
     },
 
     {
