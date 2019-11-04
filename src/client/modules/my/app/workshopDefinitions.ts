@@ -104,7 +104,7 @@ const workshops: Deployable[] = [
             'Get hands-on with Einstein Next Best Action! Join us in this workshop to learn more about Einstein Next Best Action and how to build a strategy that enables you to produce recommendations for your end users.',
         // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
         // docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
-        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
+        launchURL: launcher_pre + 'https://github.com/mcasalaina/epbnbascratchorg'
     },
     {
         shortname: 'epb_nba',
