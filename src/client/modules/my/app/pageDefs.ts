@@ -173,6 +173,8 @@ const pages: { [name: string]: string[] } = {
 
     cpq: ['cpq'],
 
+    AAHOW: ['df19AAHOW'],
+
     brokenWorkshops: ['iot'],
     df19cg: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6']
 };
