@@ -456,7 +456,15 @@ const workshops: Deployable[] = [
         description: 'booth 6 (heroku + heroku shield, heroku enterprise, private spaces)',
         docsURL: 'https://salesforce.quip.com/HdJFARzV976h',
         launchURL: launcher + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
+    },
+    {
+        name: 'App Analytics Hands on Workshop',
+        shortname: 'df19AAHOW',
+        description: 'Hands on Workshop, learn how to leverage App Analytics to answer business questions',
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/CairlinnSolutions/DF19AAHOW'
     }
+
 ];
 
 export { workshops };
