@@ -463,7 +463,15 @@ const workshops: Deployable[] = [
         description: 'Hands on Workshop, learn how to leverage App Analytics to answer business questions',
         docsURL: '',
         launchURL: launcher + 'https://github.com/CairlinnSolutions/DF19AAHOW'
+    },
+    {
+        name: 'Codeys Demo',
+        shortname: 'ADKCodey',
+        description: 'Codeys Base Demo',
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/Vchalem/Health-Cloud---ADK'
     }
+
 
 ];
 

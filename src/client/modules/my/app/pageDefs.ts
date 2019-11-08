@@ -175,6 +175,8 @@ const pages: { [name: string]: string[] } = {
 
     AAHOW: ['df19AAHOW'],
 
+    ADKCodey: ['ADKCodey'],
+
     brokenWorkshops: ['iot'],
     df19cg: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6']
 };
