@@ -469,7 +469,7 @@ const workshops: Deployable[] = [
         shortname: 'ADKCodey',
         description: 'Codeys Base Demo',
         docsURL: '',
-        launchURL: launcher + 'https://github.com/Vchalem/Health-Cloud---ADK'
+        launchURL: launcher + 'https://github.com/Vchalem/CreditLineIncreaseApp'
     }
 
 
