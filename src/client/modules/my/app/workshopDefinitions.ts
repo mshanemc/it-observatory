@@ -459,9 +459,9 @@ const workshops: Deployable[] = [
         launchURL: launcher + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
     },
     {
-        name: 'App Analytics Hands on Workshop',
+        name: 'DF19 Hands On Workshop:',
         shortname: 'df19AAHOW',
-        description: 'Hands on Workshop, learn how to leverage App Analytics to answer business questions',
+        description: 'Getting Started with AppExchange App Analytics for ISVs',
         docsURL: '',
         launchURL: launcher + 'https://github.com/CairlinnSolutions/DF19AAHOW'
     },
