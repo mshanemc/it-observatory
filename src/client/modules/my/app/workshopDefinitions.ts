@@ -136,7 +136,7 @@ const workshops: Deployable[] = [
             'Build a working app in one sitting? This is your chance to explore the possibilities of our platform to let anyone in your organization build apps with skills they have.',
         launchURL: launcher + 'https://github.com/mshanemc/df17AppBuilding',
         internalDocsURL: 'https://salesforce.quip.com/F7uJAgoEL3ce',
-        docsURL: 'https://org62.my.salesforce.com/sfc/p/000000000062/a/0M000000Fkdg/4aAxvkmnXrOAq0Mh5NsTo4.7e1CEhBoH76A0r11V_zE'
+        docsURL: 'https://salesforce.quip.com/F7uJAgoEL3ce'
     },
     {
         shortname: 'agility',
