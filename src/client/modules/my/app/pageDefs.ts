@@ -249,7 +249,7 @@ const pages: { [name: string]: PageDef } = {
             title: 'Learn more with our Learning Map',
             body1: 'The Learning Map brings together the best of the best content across Trailhead, documentation, videos and technical guides in',
             body2: 'the context of the end-to-end business journey. This one-stop-shop can help any user get started with Einstein Analytics.',
-            buttonUrl: 'http://www.einsteinanalyticslearningmap.com/'  
+            buttonUrl: 'http://www.einsteinanalyticslearningmap.com/'
         }
     }
 };
