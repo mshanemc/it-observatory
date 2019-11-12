@@ -1,6 +1,6 @@
 <template>
     <!-- LWC sample component <my-greeting> -->
-    <my-header></my-header>
+    <my-header page={page}></my-header>
 
     <div class="tile_area">
         <template for:each={tiles} for:item="tile">
@@ -8,5 +8,5 @@
         </template>
     </div>
 
-    <my-wiab></my-wiab>
+    <my-wiab details={page.footer} hide-footer={page.hideFooter}></my-wiab>
 </template>
