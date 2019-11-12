@@ -287,7 +287,7 @@ const workshops: Deployable[] = [
     {
         shortname: 'lex_now_what',
         name: 'Lightning Experience Is Here, What Now',
-        description: 'Learn how to make simple updates to your Salesforce org to make Lightning Experience more than an new UI for your users.',
+        description: 'Learn how to make simple updates to your Salesforce org to make Lightning Experience more than a new UI for your users.',
         launchURL: launcher + 'https://github.com/mshanemc/lightning-now-what',
         docsURL: 'https://salesforce.quip.com/LAafAMElLbYu'
     },
