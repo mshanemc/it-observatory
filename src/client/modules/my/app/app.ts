@@ -1,11 +1,13 @@
 import { LightningElement, track } from 'lwc';
 import { getWorkshops } from './getWorkshops';
+import { resolve } from './resolvePage';
 
 export default class App extends LightningElement {
-    @track pathname = window.location.pathname;
-    @track hash = window.location.hash;
+    get page() {
+        return resolve(window.location.pathname, window.location.hash);
+    }
 
     get tiles() {
-        return getWorkshops(this.pathname, this.hash);
+        return getWorkshops(this.page);
     }
 }

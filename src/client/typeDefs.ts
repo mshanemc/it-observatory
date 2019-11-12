@@ -13,4 +13,21 @@ interface Deployable {
     launchURL?: string;
 }
 
-export { Header, Deployable };
+interface Footer {
+    hide?: boolean;
+    title: string;
+    body1: string;
+    body2?: string;
+    buttonLabel?: string;
+    buttonVariant?: string;
+    buttonUrl: string;
+}
+
+interface PageDef {
+    deployables: Deployable['shortname'][];
+    header?: Header;
+    footer?: Footer;
+    useInternal?: boolean;
+}
+
+export { Header, Deployable, PageDef, Footer };
