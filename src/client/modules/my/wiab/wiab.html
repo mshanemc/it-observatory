@@ -1,18 +1,18 @@
 <template>
-    <template if:true={show}>
+    <template if:false={hideFooter}>
         <img src="/resources/images/Codey.png" alt="codey the bear" />
         <div class="banner">
             <p class="slds-text-heading_medium uppercase slds-m-bottom_medium">
                 <b>
-                    {title}
+                    {details.title}
                 </b>
             </p>
             <div class="banner_body">
                 <div>
-                    <p>{body1}</p>
-                    <p if:true={body2}>{body2}</p>
+                    <p>{details.body1}</p>
+                    <p if:true={details.body2}>{details.body2}</p>
                 </div>
-                <my-button variant={buttonVariant} url={buttonUrl} label={buttonLabel}></my-button>
+                <my-button variant={details.buttonVariant} url={details.buttonUrl} label={details.buttonLabel}></my-button>
             </div>
         </div>
     </template>

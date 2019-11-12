@@ -234,7 +234,8 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['iot']
     },
     df19cg: {
-        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6']
+        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6'],
+        hideFooter: true
     }
 };
 

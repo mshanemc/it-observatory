@@ -14,7 +14,6 @@ interface Deployable {
 }
 
 interface Footer {
-    hide?: boolean;
     title: string;
     body1: string;
     body2?: string;
@@ -28,6 +27,7 @@ interface PageDef {
     header?: Header;
     footer?: Footer;
     useInternal?: boolean;
+    hideFooter?: boolean;
 }
 
 export { Header, Deployable, PageDef, Footer };
