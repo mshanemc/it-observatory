@@ -236,6 +236,21 @@ const pages: { [name: string]: PageDef } = {
     df19cg: {
         deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6'],
         hideFooter: true
+    },
+
+    analytics: {
+        deployables: ['sfdx-ea-df19workshop-template', 'sfdx-ea-df19workshop-design', 'sfdx-ea-df19workshop-discovery'],
+        header: {
+            title: 'Einstein Analytics',
+            subhead: 'Hands on with Einstein Analytics',
+            logoUrl: '/resources/images/salesforce_einstein_analyitcs_dark.png'
+        },
+        footer: {
+            title: 'Learn more with our Learning Map',
+            body1: 'The Learning Map brings together the best of the best content across Trailhead, documentation, videos and technical guides in',
+            body2: 'the context of the end-to-end business journey. This one-stop-shop can help any user get started with Einstein Analytics.',
+            buttonUrl: 'http://www.einsteinanalyticslearningmap.com/'
+        }
     }
 };
 

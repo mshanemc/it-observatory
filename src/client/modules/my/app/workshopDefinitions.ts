@@ -471,6 +471,30 @@ const workshops: Deployable[] = [
         description: 'Codeys Base Demo',
         docsURL: '',
         launchURL: launcher + 'https://github.com/Vchalem/CreditLineIncreaseApp'
+    },
+    {
+        name: 'DF19 Workshop | Design Beautiful Dashboards in Einstein Analytics',
+        shortname: 'sfdx-ea-df19workshop-design',
+        description:
+            'Get hands on experience applying design principles in Einstein Analytics. Learn how to design user-centered experiences for your apps and dashboards in Einstein Analytics. In this hands-on workshop, you will learn how to apply user-centric design principles to design beautiful, intelligent experiences that users will love.',
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
+    },
+    {
+        name: 'DF19 Workshop | Get Started with Predictive Analytics Using Einstein Discovery',
+        shortname: 'sfdx-ea-df19workshop-discovery',
+        description:
+            "Learn how to predict the future using Einstein Discovery. In this hands-on workshop, you'll learn how to use the powerful predictive tools in Einstein Analytics Plus to build adaptive machine learning models that predict the key outcomes that drive your business. You'll walk through how to prepare the analysis, how to communicate with the machine to validate what it has learned, and how to assess and interpret the quality of the model you have built. Bring your computer: you'll leave with an understanding of how predictions can be applied to your business problems.",
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop-discovery'
+    },
+    {
+        name: 'DF19 Workshop | Templates',
+        shortname: 'sfdx-ea-df19workshop-template',
+        description:
+            "Learn how to predict the future using Einstein Discovery. In this hands-on workshop, you'll learn how to use the powerful predictive tools in Einstein Analytics Plus to build adaptive machine learning models that predict the key outcomes that drive your business. You'll walk through how to prepare the analysis, how to communicate with the machine to validate what it has learned, and how to assess and interpret the quality of the model you have built. Bring your computer: you'll leave with an understanding of how predictions can be applied to your business problems.",
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
     }
 ];
 
