@@ -253,11 +253,11 @@ const pages: { [name: string]: PageDef } = {
         }
     },
     einstein: {
-        deployables: ['epbnbascratchorg'],
+        deployables: ['epbnbascratchorg','nba_only'],
         header: {
-            title: 'Einstein AI',
+            title: 'Einstein',
             subhead: 'Get Intelligent with Einstein',
-            logoUrl: '/resources/images/salesforce_einstein_analyitcs_dark.png'
+            logoUrl: '/resources/images/Einstein_rocket.png'
         },
         footer: {
             title: 'Learn more with the Einstein Trail Mix',

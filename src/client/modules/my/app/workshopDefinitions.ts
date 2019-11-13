@@ -497,11 +497,11 @@ const workshops: Deployable[] = [
         launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
     },
     {
-        name: 'Einstein Prediction Builder and NBA',
+        name: 'Einstein Prediction Builder and Next Best Action',
         shortname: 'epbnbascratchorg',
         description:
             "Put predictions into action with Einstein Prediction Builder and Einstein Next Best Action. In this hands-on workshop, you'll learn how to use Einstein Prediction Builder to build predictions, and then turn those predictions into action with an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how predictions can be turned into recommendations and put into action.",
-        docsURL: 'https://salesforce.quip.com/i9doAI92gRzX',
+        docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     }
 ];
