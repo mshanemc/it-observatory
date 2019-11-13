@@ -503,6 +503,14 @@ const workshops: Deployable[] = [
             "Put predictions into action with Einstein Prediction Builder and Einstein Next Best Action. In this hands-on workshop, you'll learn how to use Einstein Prediction Builder to build predictions, and then turn those predictions into action with an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how predictions can be turned into recommendations and put into action.",
         docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
+    },
+    {
+        name: 'Einstein Next Best Action',
+        shortname: 'nba_only',
+        description:
+            "In this hands-on workshop, you'll learn how to build an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how to make actionable recommendations to your users.",
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     }
 ];
 
