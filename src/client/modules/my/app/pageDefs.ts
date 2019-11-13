@@ -251,6 +251,20 @@ const pages: { [name: string]: PageDef } = {
             body2: 'the context of the end-to-end business journey. This one-stop-shop can help any user get started with Einstein Analytics.',
             buttonUrl: 'http://www.einsteinanalyticslearningmap.com/'
         }
+    },
+    einstein: {
+        deployables: ['epbnbascratchorg'],
+        header: {
+            title: 'Einstein AI',
+            subhead: 'Get Intelligent with Einstein',
+            logoUrl: '/resources/images/salesforce_einstein_analyitcs_dark.png'
+        },
+        footer: {
+            title: 'Learn more with the Einstein Trail Mix',
+            body1: 'The Einstein Trail Mix allows you to get hands-on with Einstein tools,',
+            body2: 'from Einstein Prediction Builder to Einstein Vision & Language and everything in between.',
+            buttonUrl: 'http://trailhead.einstein.com/'
+        }
     }
 };
 

@@ -495,6 +495,14 @@ const workshops: Deployable[] = [
             "Learn how to predict the future using Einstein Discovery. In this hands-on workshop, you'll learn how to use the powerful predictive tools in Einstein Analytics Plus to build adaptive machine learning models that predict the key outcomes that drive your business. You'll walk through how to prepare the analysis, how to communicate with the machine to validate what it has learned, and how to assess and interpret the quality of the model you have built. Bring your computer: you'll leave with an understanding of how predictions can be applied to your business problems.",
         docsURL: '',
         launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
+    },
+    {
+        name: 'Einstein Prediction Builder and NBA',
+        shortname: 'epbnbascratchorg',
+        description:
+            "Put predictions into action with Einstein Prediction Builder and Einstein Next Best Action. In this hands-on workshop, you'll learn how to use Einstein Prediction Builder to build predictions, and then turn those predictions into action with an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how predictions can be turned into recommendations and put into action.",
+        docsURL: 'https://salesforce.quip.com/i9doAI92gRzX',
+        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     }
 ];
 
