@@ -117,9 +117,9 @@ const workshops: Deployable[] = [
     {
         shortname: 'vision_language',
         name: 'Get Hands-on with the Einstein Vision and Language Model Builder',
-        description: `Before when you wanted to use Einstein Vision and Language, you needed to make API calls from the command line with cURL or a tool like Postman. Now, you can use the Einstein Vision and Language Model Builder by Salesforce Labs to create datasets, build models, and make predictions without leaving Salesforce. During this workshop, you'll learn everything you need to know to make predictions on unstructured data like images and text using our newest app — available free on the AppExchange. Less work. Faster implementation.`
+        description: `Before when you wanted to use Einstein Vision and Language, you needed to make API calls from the command line with cURL or a tool like Postman. Now, you can use the Einstein Vision and Language Model Builder by Salesforce Labs to create datasets, build models, and make predictions without leaving Salesforce. During this workshop, you'll learn everything you need to know to make predictions on unstructured data like images and text using our newest app — available free on the AppExchange. Less work. Faster implementation.`,
         // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
-        // docsURL: 'https://trailhead.salesforce.com/content/learn/projects/quick-start-set-up-lightning-experience-on-mobile'
+        docsURL: 'https://salesforce.quip.com/ZUfYArH78mp4'
     },
     {
         shortname: 'einstein_discovery',
