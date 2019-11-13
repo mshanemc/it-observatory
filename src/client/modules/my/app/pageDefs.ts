@@ -255,13 +255,12 @@ const pages: { [name: string]: PageDef } = {
     einstein: {
         deployables: ['epbnbascratchorg','nba_only'],
         header: {
-            title: 'Einstein',
+            title: 'Einstein Workshops',
             logoUrl: '/resources/images/Einstein_rocket.png'
         },
         footer: {
             title: 'Learn more with the Einstein Trail Mix',
-            body1: 'The Einstein Trail Mix allows you to get hands-on with Einstein tools,',
-            body2: 'from Einstein Prediction Builder to Einstein Vision & Language and everything in between.',
+            body1: 'The Einstein Trail Mix allows you to get hands-on with all the Einstein tools.',
             buttonUrl: 'http://trailhead.einstein.com/'
         }
     }
