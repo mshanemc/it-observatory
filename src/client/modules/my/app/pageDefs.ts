@@ -256,7 +256,6 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['epbnbascratchorg','nba_only'],
         header: {
             title: 'Einstein',
-            subhead: 'Get Intelligent with Einstein',
             logoUrl: '/resources/images/Einstein_rocket.png'
         },
         footer: {
