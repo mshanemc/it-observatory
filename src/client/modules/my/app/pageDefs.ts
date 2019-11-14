@@ -251,6 +251,18 @@ const pages: { [name: string]: PageDef } = {
             body2: 'the context of the end-to-end business journey. This one-stop-shop can help any user get started with Einstein Analytics.',
             buttonUrl: 'http://www.einsteinanalyticslearningmap.com/'
         }
+    },
+    einstein: {
+        deployables: ['epbnbascratchorg','nba_only'],
+        header: {
+            title: 'Einstein Workshops',
+            logoUrl: '/resources/images/Einstein_rocket.png'
+        },
+        footer: {
+            title: 'Learn more with the Einstein Trail Mix',
+            body1: 'The Einstein Trail Mix allows you to get hands-on with all the Einstein tools.',
+            buttonUrl: 'http://trailhead.einstein.com/'
+        }
     }
 };
 
