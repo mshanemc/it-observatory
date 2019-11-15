@@ -242,7 +242,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['sfdx-ea-df19workshop-template', 'sfdx-ea-df19workshop-design', 'sfdx-ea-df19workshop-discovery'],
         header: {
             title: 'Einstein Analytics',
-            subhead: 'Hands on with Einstein Analytics',
+            subhead: 'Hands-on with Einstein Analytics',
             logoUrl: '/resources/images/salesforce_einstein_analyitcs_dark.png'
         },
         footer: {
