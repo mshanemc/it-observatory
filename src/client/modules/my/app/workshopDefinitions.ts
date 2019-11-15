@@ -492,8 +492,8 @@ const workshops: Deployable[] = [
         name: 'DF19 Workshop | Templates',
         shortname: 'sfdx-ea-df19workshop-template',
         description:
-            "Learn how to predict the future using Einstein Discovery. In this hands-on workshop, you'll learn how to use the powerful predictive tools in Einstein Analytics Plus to build adaptive machine learning models that predict the key outcomes that drive your business. You'll walk through how to prepare the analysis, how to communicate with the machine to validate what it has learned, and how to assess and interpret the quality of the model you have built. Bring your computer: you'll leave with an understanding of how predictions can be applied to your business problems.",
-        docsURL: '',
+            "Want to get started with Analytics but don't know how? With Analytics templates, any organization can get off the ground quickly! Join us at Analytics Falls for a hands-on workshop where we'll create dashboards using out of the box templates. Workshops are approximately 20 minutes in duration, and reoccur every 30 minutes.",
+        docsURL: 'https://salesforce.quip.com/SNsXA0N5GpjS',
         launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
     },
     {
