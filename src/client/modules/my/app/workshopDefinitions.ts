@@ -448,7 +448,7 @@ const workshops: Deployable[] = [
         name: 'Demo 3: Departmental Apps',
         shortname: 'df19cg3',
         description: 'booth 3 (prediction builder, lightning platform)',
-        docsURL: 'https://salesforce.quip.com/RnqcArZV2hAJ',
+        docsURL: 'https://salesforce.quip.com/Xfh7AKIc0lOF',
         launchURL: launcher + 'https://github.com/gabesumner/df19-departmental-productivity'
     },
     {
