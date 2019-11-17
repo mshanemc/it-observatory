@@ -459,6 +459,13 @@ const workshops: Deployable[] = [
         launchURL: launcher + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
     },
     {
+        name: 'Theater: Enhance the Development Process Solution Demo Script for Dreamforce',
+        shortname: 'df19dx_theater',
+        description: 'theater demo',
+        docsURL: 'https://salesforce.quip.com/339lAIbDIplb',
+        launchURL: launcher + 'https://github.com/mshanemc/solutions-dx'
+    },
+    {
         name: 'DF19 Hands On Workshop:',
         shortname: 'df19AAHOW',
         description: 'Getting Started with AppExchange App Analytics for ISVs',
