@@ -234,7 +234,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['iot']
     },
     df19cg: {
-        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6'],
+        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6', 'df19dx_theater'],
         hideFooter: true
     },
 
@@ -253,7 +253,7 @@ const pages: { [name: string]: PageDef } = {
         }
     },
     einstein: {
-        deployables: ['epbnbascratchorg','nba_only'],
+        deployables: ['epbnbascratchorg', 'nba_only'],
         header: {
             title: 'Einstein Workshops',
             logoUrl: '/resources/images/Einstein_rocket.png'
