@@ -518,6 +518,13 @@ const workshops: Deployable[] = [
             "In this hands-on workshop, you'll learn how to build an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how to make actionable recommendations to your users.",
         docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
+    },
+
+    {
+        name: 'machine setup',
+        shortname: 'machine_setup',
+        description: 'cheats for setting up all the local prerequisites for lwc + heroku workshops',
+        docsURL: 'https://salesforce.quip.com/nCpYALHZ4cHD'
     }
 ];
 

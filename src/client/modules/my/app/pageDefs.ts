@@ -263,6 +263,9 @@ const pages: { [name: string]: PageDef } = {
             body1: 'The Einstein Trail Mix allows you to get hands-on with all the Einstein tools.',
             buttonUrl: 'http://trailhead.einstein.com/'
         }
+    },
+    machines: {
+        deployables: ['machine_setup']
     }
 };
 
