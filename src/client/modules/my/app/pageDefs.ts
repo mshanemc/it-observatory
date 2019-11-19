@@ -253,7 +253,7 @@ const pages: { [name: string]: PageDef } = {
         }
     },
     einstein: {
-        deployables: ['epbnbascratchorg','nba_only'],
+        deployables: ['epbnbascratchorg','nba_only','einstein_discovery'],
         header: {
             title: 'Einstein Workshops',
             logoUrl: '/resources/images/Einstein_rocket.png'
