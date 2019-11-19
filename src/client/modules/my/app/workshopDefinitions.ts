@@ -448,7 +448,7 @@ const workshops: Deployable[] = [
         name: 'Demo 3: Departmental Apps',
         shortname: 'df19cg3',
         description: 'booth 3 (prediction builder, lightning platform)',
-        docsURL: 'https://salesforce.quip.com/RnqcArZV2hAJ',
+        docsURL: 'https://salesforce.quip.com/Xfh7AKIc0lOF',
         launchURL: launcher + 'https://github.com/gabesumner/df19-departmental-productivity'
     },
     {
@@ -457,6 +457,13 @@ const workshops: Deployable[] = [
         description: 'booth 6 (heroku + heroku shield, heroku enterprise, private spaces)',
         docsURL: 'https://salesforce.quip.com/HdJFARzV976h',
         launchURL: launcher + 'https://github.com/mshanemc/custexp/tree/df19-heroku-only'
+    },
+    {
+        name: 'Theater: Enhance the Development Process Solution Demo Script for Dreamforce',
+        shortname: 'df19dx_theater',
+        description: 'theater demo',
+        docsURL: 'https://salesforce.quip.com/339lAIbDIplb',
+        launchURL: launcher + 'https://github.com/mshanemc/solutions-dx'
     },
     {
         name: 'DF19 Hands On Workshop:',
@@ -492,8 +499,8 @@ const workshops: Deployable[] = [
         name: 'DF19 Workshop | Templates',
         shortname: 'sfdx-ea-df19workshop-template',
         description:
-            "Learn how to predict the future using Einstein Discovery. In this hands-on workshop, you'll learn how to use the powerful predictive tools in Einstein Analytics Plus to build adaptive machine learning models that predict the key outcomes that drive your business. You'll walk through how to prepare the analysis, how to communicate with the machine to validate what it has learned, and how to assess and interpret the quality of the model you have built. Bring your computer: you'll leave with an understanding of how predictions can be applied to your business problems.",
-        docsURL: '',
+            "Want to get started with Analytics but don't know how? With Analytics templates, any organization can get off the ground quickly! Join us at Analytics Falls for a hands-on workshop where we'll create dashboards using out of the box templates. Workshops are approximately 20 minutes in duration, and reoccur every 30 minutes.",
+        docsURL: 'https://salesforce.quip.com/SNsXA0N5GpjS',
         launchURL: launcher + 'https://github.com/ttse-sfdc/sfdx-ea-df19workshop'
     },
     {
@@ -511,6 +518,13 @@ const workshops: Deployable[] = [
             "In this hands-on workshop, you'll learn how to build an Einstein Next Best Action strategy. Bring your computer: you'll leave with an understanding of how to make actionable recommendations to your users.",
         docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
+    },
+
+    {
+        name: 'machine setup',
+        shortname: 'machine_setup',
+        description: 'cheats for setting up all the local prerequisites for lwc + heroku workshops',
+        docsURL: 'https://salesforce.quip.com/nCpYALHZ4cHD'
     }
 ];
 

@@ -234,7 +234,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['iot']
     },
     df19cg: {
-        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6'],
+        deployables: ['app-wall', 'df19cg1', 'df19cg2', 'df19cg3', 'df19cg6', 'df19dx_theater'],
         hideFooter: true
     },
 
@@ -242,7 +242,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['sfdx-ea-df19workshop-template', 'sfdx-ea-df19workshop-design', 'sfdx-ea-df19workshop-discovery'],
         header: {
             title: 'Einstein Analytics',
-            subhead: 'Hands on with Einstein Analytics',
+            subhead: 'Hands-on with Einstein Analytics',
             logoUrl: '/resources/images/salesforce_einstein_analyitcs_dark.png'
         },
         footer: {
@@ -263,6 +263,9 @@ const pages: { [name: string]: PageDef } = {
             body1: 'The Einstein Trail Mix allows you to get hands-on with all the Einstein tools.',
             buttonUrl: 'http://trailhead.einstein.com/'
         }
+    },
+    machines: {
+        deployables: ['machine_setup']
     }
 };
 
