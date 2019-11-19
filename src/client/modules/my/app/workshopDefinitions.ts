@@ -125,9 +125,9 @@ const workshops: Deployable[] = [
         shortname: 'einstein_discovery',
         name: 'Get Started with Einstein Discovery',
         description: `Different business processes require different strategies for building predictions, whether it involves external data or data right inside your CRM. Join this hands-on workshop to learn how you can apply Einstein Discovery to common business challenges using the power of AI and machine learning.`,
-        launchURL: launcher_pre + 'https://github.com/mcasalaina/einsteinanalysticsscratch',
+        launchURL: launcher_pre + 'https://github.com/mcasalaina/einsteinanalysticsscratch'
         // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
-        docsURL: 'https://salesforce.quip.com/tl0yAK5rMaYv'
+        //docsURL: 'https://salesforce.quip.com/tl0yAK5rMaYv'
     },
     {
         shortname: 'crash_course',
