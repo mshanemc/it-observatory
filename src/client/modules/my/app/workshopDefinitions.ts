@@ -519,7 +519,14 @@ const workshops: Deployable[] = [
         docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     },
-
+    {
+        name: 'Einstein Prediction Builder Medical Appointments Dataset',
+        shortname: 'medicalappointments',
+        description:
+            "In this hands-on workshop, you'll learn how to build a prediction about medical appointments using Einstein Prediction Builder.",
+        docsURL: '',
+        launchURL: launcher + 'https://github.com/mcasalaina/medicalappointments'
+    },
     {
         name: 'machine setup',
         shortname: 'machine_setup',
