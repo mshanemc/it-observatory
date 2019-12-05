@@ -6,19 +6,20 @@ const footerDefaults = {
     buttonLabel: 'Learn More'
 };
 const iconDefault = '/resources/images/platform_logo.png';
+const currentPlatformBranding = 'Customer 360 Platform';
+
+const defaultHeader: Header = {
+    title: `${currentPlatformBranding} Workshops`,
+    subhead: "Now Building Apps is Everyone's Business",
+    logoUrl: iconDefault
+};
 
 const defaultFooter: Footer = {
     ...footerDefaults,
-    title: 'Run your own Lightning Platform workshops!',
-    body1: 'Want to help others build apps fast and easy with the Lightning Platform?',
-    body2: 'Find out how the Lightning Platform Workshop-in-a-Box can give you everything you need!',
+    title: `Run your own ${currentPlatformBranding} workshops!`,
+    body1: `Want to help others build apps fast and easy with the ${currentPlatformBranding}?`,
+    body2: `Find out how the ${currentPlatformBranding} Workshop-in-a-Box can give you everything you need!`,
     buttonUrl: 'https://www.salesforce.com/campaign/lightning-platform-workshop-in-a-box/'
-};
-
-const defaultHeader: Header = {
-    title: 'Salesforce Platform Workshops',
-    subhead: "Now Building Apps is Everyone's Business",
-    logoUrl: iconDefault
 };
 
 const resolve = (path: string = window.location.pathname, hash: string = window.location.hash) => {
