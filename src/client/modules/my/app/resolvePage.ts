@@ -10,7 +10,6 @@ const currentPlatformBranding = 'Customer 360 Platform';
 
 const defaultHeader: Header = {
     title: `${currentPlatformBranding} Workshops`,
-    subhead: "Now Building Apps is Everyone's Business",
     logoUrl: iconDefault
 };
 
