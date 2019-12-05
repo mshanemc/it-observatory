@@ -104,14 +104,14 @@ const workshops: Deployable[] = [
             'Get hands-on with Einstein Next Best Action! Join us in this workshop to learn more about Einstein Next Best Action and how to build a strategy that enables you to produce recommendations for your end users.',
         // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
         docsURL: 'https://salesforce.quip.com/GHYEAMjTP8RQ',
-        launchURL: launcher_pre + 'https://github.com/mcasalaina/epbnbascratchorg'
+        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     },
     {
         shortname: 'epb_nba',
         name: 'Put Predictions In Action with Einstein Prediction Builder and Next Best Action',
         description: `Learn how to harness the power of both Einstein Prediction Builder and Einstein Next Best Action to produce recommendations to your end users that are powered by Einstein!`,
         docsURL: 'https://salesforce.quip.com/i9doAI92gRzX',
-        launchURL: launcher_pre + 'https://github.com/mcasalaina/epbnbascratchorg'
+        launchURL: launcher + 'https://github.com/mcasalaina/epbnbascratchorg'
     },
 
     {
@@ -125,7 +125,7 @@ const workshops: Deployable[] = [
         shortname: 'einstein_discovery',
         name: 'Get Started with Einstein Discovery',
         description: `Different business processes require different strategies for building predictions, whether it involves external data or data right inside your CRM. Join this hands-on workshop to learn how you can apply Einstein Discovery to common business challenges using the power of AI and machine learning.`,
-        launchURL: launcher_pre + 'https://github.com/mcasalaina/einsteinanalysticsscratch'
+        launchURL: launcher + 'https://github.com/mcasalaina/einsteinanalysticsscratch'
         // internalDocsURL: 'https://salesforce.quip.com/R5qbA0l96hro',
         //docsURL: 'https://salesforce.quip.com/tl0yAK5rMaYv'
     },
