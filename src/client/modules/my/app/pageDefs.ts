@@ -263,6 +263,9 @@ const pages: { [name: string]: PageDef } = {
             body1: 'The Einstein Trail Mix allows you to get hands-on with all the Einstein tools.',
             buttonUrl: 'http://trailhead.einstein.com/'
         }
+    },
+    platform: {
+        deployables: ['lwc', 'epb', 'flows', 'automate', 'heroku_connect', 'code_for_clicks', 'crash_course', 'agility', 'cdc']
     }
 };
 
