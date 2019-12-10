@@ -1,13 +1,7 @@
 {
-  "singleQuote": true,
-  "printWidth": 150,
-  "trailingComma": "none",
-  "tabWidth": 4,
-  "semi": true,
-  "overrides": [
-    {
-      "files": "**/*.html",
-      "options": { "parser": "lwc" }
-    }
-  ]
+    "singleQuote": true,
+    "printWidth": 150,
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "semi": true
 }
