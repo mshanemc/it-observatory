@@ -526,12 +526,6 @@ const workshops: Deployable[] = [
             "In this hands-on workshop, you'll learn how to build a prediction about medical appointments using Einstein Prediction Builder.",
         docsURL: '',
         launchURL: launcher + 'https://github.com/mcasalaina/medicalappointments'
-    },
-    {
-        name: 'machine setup',
-        shortname: 'machine_setup',
-        description: 'cheats for setting up all the local prerequisites for lwc + heroku workshops',
-        docsURL: 'https://salesforce.quip.com/nCpYALHZ4cHD'
     }
 ];
 
