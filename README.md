@@ -11,7 +11,7 @@ The source files are located in the [`src`](./src) folder. All web components ar
 `./src/client/modules/my/app/pageDefs.ts` holds the various "routes".
 There's properties to override the default header/subhead/logo and to hide or override the footer content.
 
-You can use either `/something` or `#something` to get there (# is preferred), which should match a property of the `pages` object. This array is shortnames from the workhop definitions
+You can use either `/something` or `#something` to get there (# is preferred), which should match a property of the `pages` object. The `deployables` array is shortnames from the workhop definitions
 
 ## Workshop Definitions (Tiles)
 
