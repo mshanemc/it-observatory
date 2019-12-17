@@ -134,15 +134,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: ['adoption_sales', 'adoption_service', 'go_live', 'quick_actions']
     },
     sfwt: {
-        deployables: [
-            'crash_course',
-            'agility',
-            'automate',
-            'flows',
-            'lex_now_what',
-            'flows_simple',
-            'new_mobile_app'
-        ]
+        deployables: ['crash_course', 'agility', 'automate', 'flows', 'lex_now_what', 'flows_simple', 'new_mobile_app2']
     },
 
     daydreamin: {
