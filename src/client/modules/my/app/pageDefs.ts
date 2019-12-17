@@ -135,26 +135,13 @@ const pages: { [name: string]: PageDef } = {
     },
     sfwt: {
         deployables: [
-            'automate',
-            'cdc',
-            'lwc',
-            'epb',
-            'flows',
-            'heroku_connect',
-            'lightning_features',
-            'code_for_clicks',
             'crash_course',
             'agility',
-            'adoption_sales',
-            'adoption_service',
-            'go_live',
-            'quick_actions',
-            'lightning_vf',
-            'reporting',
-            'js_buttons',
-            'heroku_pipelines',
-            'console_apps',
-            'flows_simple'
+            'automate',
+            'flows',
+            'lex_now_what',
+            'flows_simple',
+            'new_mobile_app'
         ]
     },
 
