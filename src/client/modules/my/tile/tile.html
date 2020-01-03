@@ -6,10 +6,10 @@
         <div>{tile.description}</div>
         <div class="button_area">
             <template if:true={tile.launchURL}>
-                <my-button url={tile.launchURL} variant="brand" label="Create Org"></my-button>
+                <base-button url={tile.launchURL} variant="brand" label="Create Org"></base-button>
             </template>
             <template if:true={tile.docsURL}>
-                <my-button url={tile.docsURL} variant="neutral" label="Open Guide"></my-button>
+                <base-button url={tile.docsURL} variant="neutral" label="Open Guide"></base-button>
             </template>
         </div>
     </div>

@@ -4,6 +4,7 @@
     "author": "mshanemc",
     "bugs": "https://github.com/mshanemc/it-observatory/issues",
     "dependencies": {
+        "@mshanemc/lwc-oss-base": "0.1.0",
         "lwc-services": "^1.3.9"
     },
     "devDependencies": {
