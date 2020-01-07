@@ -28,7 +28,7 @@ const workshops: Deployable[] = [
         description:
             'Get hands on with the new Flow Builder and create a no-code integration to a 3rd party API so you can use it in your flows and deliver a seamless UI to your users',
         launchURL: launcher + 'https://github.com/mshanemc/flow-workshop',
-        docsURL: 'https://salesforce.quip.com/t6u5AbPUvhxY'
+        docsURL: 'https://salesforce.quip.com/WE1nAahib7Jz'
     },
     {
         shortname: 'console_apps',
