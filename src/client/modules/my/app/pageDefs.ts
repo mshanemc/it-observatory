@@ -147,6 +147,7 @@ const pages: { [name: string]: PageDef } = {
         deployables: [
             'adoption_sales',
             'adoption_service',
+            'console_apps',
             'reporting',
             'go_live',
             'quick_actions',
