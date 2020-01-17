@@ -152,6 +152,7 @@ const pages: { [name: string]: PageDef } = {
             'go_live',
             'quick_actions',
             'lightning_features',
+            'flows_simple',
             // 'lightning_vf',
             'js_buttons'
         ]
