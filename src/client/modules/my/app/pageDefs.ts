@@ -61,7 +61,7 @@ const pages: { [name: string]: PageDef } = {
     },
     tdx19adoption: {
         header: adoptionHeaders,
-        deployables: ['flows_simple', 'go_live', 'js_buttons', 'console_apps']
+        deployables: ['flows_simple', 'js_buttons', 'console_apps']
     },
 
     all: {
@@ -78,7 +78,6 @@ const pages: { [name: string]: PageDef } = {
             'agility',
             'adoption_sales',
             'adoption_service',
-            'go_live',
             'quick_actions',
             'lightning_vf',
             'reporting',
@@ -102,7 +101,6 @@ const pages: { [name: string]: PageDef } = {
             'agility',
             'adoption_sales',
             'adoption_service',
-            'go_live',
             'quick_actions',
             'lightning_vf',
             'reporting',
@@ -131,7 +129,7 @@ const pages: { [name: string]: PageDef } = {
     df18adoption: {
         header: adoptionHeaders,
         footer: adoptionFooter,
-        deployables: ['adoption_sales', 'adoption_service', 'go_live', 'quick_actions']
+        deployables: ['adoption_sales', 'adoption_service', 'quick_actions']
     },
     sfwt: {
         deployables: ['crash_course', 'agility', 'automate', 'flows', 'lex_now_what', 'flows_simple', 'new_mobile_app2']
@@ -149,7 +147,6 @@ const pages: { [name: string]: PageDef } = {
             'adoption_service',
             'console_apps',
             'reporting',
-            'go_live',
             'quick_actions',
             'lightning_features',
             'flows_simple',
