@@ -202,6 +202,13 @@ const pages: { [name: string]: PageDef } = {
         }
     },
 
+    fsl: {
+        deployables: ['fsl-campfire'],
+        header: {
+            title: 'Salesforce Field Service Lightning'
+        }
+    },
+
     AAHOW: {
         deployables: ['df19AAHOW']
     },
