@@ -307,6 +307,14 @@ const workshops: Deployable[] = [
         docsURL: 'https://quip.com/TXrnA5QyQ12d'
     },
     {
+        shortname: 'fsl-campfire',
+        name: 'Salesforce Field Service Lightning Campfire',
+        description:
+            'Join the Salesforce team for a step-by-step workshop on how to stand up and configure Field Service Lightning.',
+        launchURL: launcher + 'https://hosted-scratch.herokuapp.com/launch?template=https://github.com/tgmielke/fsl-workshop&email=required',
+        docsURL: 'https://salesforce.quip.com/ZCjmA1xt9a6z'
+    },
+    {
         shortname: 'cpq',
         name: 'Salesforce CPQ Admin Workshop',
         description:
