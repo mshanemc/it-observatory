@@ -1,5 +1,7 @@
 <template>
-    <img src={page.header.logoUrl} alt="logo" />
-    <div class="slds-text-heading_large">{page.header.title}</div>
-    <div class="slds-text-heading_medium"><b>{page.header.subhead}</b></div>
+    <template if:true={page.header}>
+        <img src={page.header.logoUrl} alt="logo" />
+        <div class="slds-text-heading_large">{page.header.title}</div>
+        <div class="slds-text-heading_medium"><b>{page.header.subhead}</b></div>
+    </template>
 </template>

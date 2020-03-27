@@ -6,11 +6,22 @@
 }
 
 .tile_area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
+    padding: 3vw;
     flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-content: stretch; */
+    /* flex-grow: 1; */
+}
+
+@media only screen and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+    .tile_area {
+        grid-template-columns: 1fr;
+    }
 }
 
 my-header,
@@ -19,9 +30,10 @@ my-wiab {
 }
 
 my-tile {
-    width: 500px;
-    max-width: 25%;
-    margin: 2vw;
+    /* width: 500px; */
+    /* max-width: 25%; */
+    /* margin: 2vw; */
+    width: 100%;
 }
 
 img {
