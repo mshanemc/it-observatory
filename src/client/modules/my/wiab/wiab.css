@@ -40,9 +40,10 @@ p {
 
 .banner .banner_body {
     display: flex;
-    align-items: center;
+    align-items: top;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 img {

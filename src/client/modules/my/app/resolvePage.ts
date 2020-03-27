@@ -1,4 +1,3 @@
-import { pages } from './pageDefs';
 import { PageDef, Footer, Header } from '../../../typeDefs';
 
 const footerDefaults = {
@@ -44,28 +43,7 @@ const resolve = (path: string = window.location.pathname, hash: string = window.
         hash = hash.replace('internal', '');
     }
 
-    // For any undefined path, just return the contents of All
-    if (!pages[hash]) {
-        console.log(`not found: ${hash}.  Returning 'all'`);
-        hash = 'all';
-    }
-
-    const output: PageDef = pages[hash];
-    output.useInternal = internal;
-
-    // no footer, but not hiding it
-    if (!output.footer && !output.hideFooter) {
-        output.footer = defaultFooter;
-    } else if (output.footer) {
-        // partial footer overrides
-        output.footer = { ...footerDefaults, ...output.footer };
-    } //otherwise, it's hidden and will stay empty
-
-    if (!output.header) {
-        output.header = defaultHeader;
-    } else {
-        output.header = { logoUrl: iconDefault, ...output.header };
-    }
+    const output: PageDef = { path: hash, useInternal: internal, footer: defaultFooter, header: defaultHeader, deployables: [] };
 
     return output;
 };

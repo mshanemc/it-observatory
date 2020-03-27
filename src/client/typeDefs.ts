@@ -27,7 +27,7 @@ interface PageDef {
     header?: Header;
     footer?: Footer;
     useInternal?: boolean;
-    hideFooter?: boolean;
+    path?: string;
 }
 
 export { Header, Deployable, PageDef, Footer };
