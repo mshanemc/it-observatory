@@ -28,6 +28,7 @@ interface PageDef {
     footer?: Footer;
     useInternal?: boolean;
     path?: string;
+    redirect?: string;
 }
 
 export { Header, Deployable, PageDef, Footer };

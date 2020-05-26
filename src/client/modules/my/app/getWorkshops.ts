@@ -17,6 +17,7 @@ const getWorkshops = async (page: PageDef): Promise<PageDef> => {
 
     return {
         ...page,
+        redirect: matchedBundle.Redirect__c,
         header: {
             title: matchedBundle.Launcher_Title__c || page.header.title,
             subhead: matchedBundle.Launcher_Subhead__c || page.header.subhead,

@@ -18,7 +18,14 @@ export default class App extends LightningElement {
 
     async connectedCallback() {
         try {
-            this._pageActual = await getWorkshops(resolve(window.location.pathname, window.location.hash));
+            const pageActual = await getWorkshops(resolve(window.location.pathname, window.location.hash));
+            console.log(pageActual);
+            if (pageActual.redirect) {
+                // eslint-disable-next-line require-atomic-updates
+                window.location.href = pageActual.redirect;
+            } else {
+                this._pageActual = pageActual;
+            }
         } catch (error) {
             console.error('error retrieving page');
             console.error(error);
